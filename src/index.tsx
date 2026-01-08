@@ -198,7 +198,7 @@ app.get('/', (c) => {
             </div>
             
             <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="https://www.instagram.com/direct/t/yamaryu_bar" target="_blank" class="btn-primary btn-instagram">
+                <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="btn-primary btn-instagram">
                     <i class="fab fa-instagram mr-2"></i>
                     <span data-en="Reserve via Instagram" data-ja="Instagramで予約">Reserve via Instagram</span>
                     <br><small data-en="Instant Response" data-ja="即座に対応" data-zh="即时回复">Instant Response</small>
@@ -308,7 +308,7 @@ app.get('/', (c) => {
                         <li>✓ <span data-en="Easy to share photos & questions" data-ja="写真や質問を簡単に共有" data-zh="轻松分享照片和提问">Easy to share photos & questions</span></li>
                         <li>✓ <span data-en="Friendly, casual communication" data-ja="フレンドリーでカジュアルなやり取り" data-zh="友好、轻松的交流">Friendly, casual communication</span></li>
                     </ul>
-                    <a href="https://www.instagram.com/direct/t/yamaryu_bar" target="_blank" class="btn-primary btn-instagram block w-full text-center">
+                    <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="btn-primary btn-instagram block w-full text-center">
                         <i class="fab fa-instagram mr-2"></i>
                         <span data-en="Message on Instagram" data-ja="Instagramでメッセージ" data-zh="在Instagram上留言">Message on Instagram</span>
                     </a>
@@ -868,7 +868,7 @@ app.get('/', (c) => {
                         <p class="mb-2">📞 <strong data-en="Phone:" data-ja="電話：">Phone:</strong> <a href="tel:0725255717" class="text-blue-600 hover:underline">0725-25-5717</a></p>
                         <p class="text-sm mb-4 ml-6 opacity-75" data-en="(Japanese & basic English available)" data-ja="（日本語・基本的な英語対応可能）">(Japanese & basic English available)</p>
                         
-                        <p class="mb-2">📱 <strong>Instagram:</strong> <a href="https://www.instagram.com/yamaryu_bar" target="_blank" class="text-blue-600 hover:underline">@yamaryu_bar</a></p>
+                        <p class="mb-2">📱 <strong>Instagram:</strong> <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="text-blue-600 hover:underline">@yamaryu_bar</a></p>
                         
                         <p class="mb-2">🌐 <strong data-en="Official Site:" data-ja="公式サイト：">Official Site:</strong></p>
                         <p class="ml-6"><a href="https://www.hotpepper.jp/strJ001263382/" target="_blank" class="text-blue-600 hover:underline text-sm break-all">hotpepper.jp/strJ001263382</a></p>
@@ -904,7 +904,7 @@ app.get('/', (c) => {
             </p>
             
             <div class="flex flex-col md:flex-row gap-6 justify-center mb-8">
-                <a href="https://www.instagram.com/direct/t/yamaryu_bar" target="_blank" class="btn-primary btn-instagram text-xl py-4 px-8">
+                <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="btn-primary btn-instagram text-xl py-4 px-8">
                     <i class="fab fa-instagram mr-2"></i>
                     <span data-en="Reserve via Instagram" data-ja="Instagramで予約">Reserve via Instagram</span>
                 </a>
@@ -932,7 +932,7 @@ app.get('/', (c) => {
     <footer class="bg-gray-900 text-white py-8">
         <div class="max-w-6xl mx-auto px-4 text-center">
             <div class="flex flex-wrap justify-center gap-6 mb-6">
-                <a href="https://www.instagram.com/yamaryu_bar" target="_blank" class="hover:text-yellow-400 transition">Instagram</a>
+                <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="hover:text-yellow-400 transition">Instagram</a>
                 <a href="https://www.hotpepper.jp/strJ001263382/" target="_blank" class="hover:text-yellow-400 transition">Hotpepper Page</a>
                 <a href="#reservation-form" class="hover:text-yellow-400 transition" data-en="Reservation Form" data-ja="予約フォーム">Reservation Form</a>
                 <a href="#" class="hover:text-yellow-400 transition" data-en="Allergy Information" data-ja="アレルギー情報">Allergy Information</a>
