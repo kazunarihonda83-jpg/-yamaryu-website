@@ -443,7 +443,7 @@ app.get('/', (c) => {
                     <p class="text-sm" data-en="Our signature aged cut—tender, flavorful, unforgettable" data-ja="当店自慢の熟成肉—柔らか、風味豊か、忘れられない" data-zh="我们的招牌熟成肉——柔嫩、风味浓郁、难以忘怀" data-zh="我们的招牌熟成肉——柔嫩、风味浓郁、难以忘怀">Our signature aged cut—tender, flavorful, unforgettable</p>
                 </div>
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=400" alt="Wagyu Tataki" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <img src="/images/menu-wagyu-tataki.jpg" alt="Wagyu Tataki" class="rounded-lg mb-4 w-full h-48 object-cover">
                     <h4 class="font-bold text-xl mb-2" data-en="Wagyu Red Meat Tataki" data-ja="和牛赤身の炙り" data-zh="和牛赤身炙烤" data-zh="和牛赤身炙烤">Wagyu Red Meat Tataki</h4>
                     <p class="text-sm" data-en="Lightly seared wagyu served carpaccio-style" data-ja="軽く炙った和牛をカルパッチョ風で" data-zh="轻炙和牛，卡帕乔式呈现" data-zh="轻炙和牛，卡帕乔式呈现">Lightly seared wagyu served carpaccio-style</p>
                 </div>
