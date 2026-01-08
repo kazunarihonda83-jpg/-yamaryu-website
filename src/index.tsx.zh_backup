@@ -170,7 +170,7 @@ app.get('/', (c) => {
     <div class="floating-cta">
         <button onclick="scrollToReservation()" class="btn-primary shadow-lg">
             <i class="fas fa-calendar-check mr-2"></i>
-            <span data-en="Reserve Now" data-ja="予約する" data-zh="进行预订">Reserve Now</span>
+            <span data-en="Reserve Now" data-ja="予約する">Reserve Now</span>
         </button>
     </div>
 
@@ -201,12 +201,12 @@ app.get('/', (c) => {
                 <a href="https://www.instagram.com/direct/t/yamaryu_bar" target="_blank" class="btn-primary btn-instagram">
                     <i class="fab fa-instagram mr-2"></i>
                     <span data-en="Reserve via Instagram" data-ja="Instagramで予約">Reserve via Instagram</span>
-                    <br><small data-en="Instant Response" data-ja="即座に対応" data-zh="即时回复">Instant Response</small>
+                    <br><small data-en="Instant Response" data-ja="即座に対応">Instant Response</small>
                 </a>
                 <a href="#reservation-form" class="btn-primary">
                     <i class="fas fa-calendar-alt mr-2"></i>
                     <span data-en="English Reservation Form" data-ja="予約フォーム">English Reservation Form</span>
-                    <br><small data-en="No Japanese Required" data-ja="日本語不要" data-zh="无需日语">No Japanese Required</small>
+                    <br><small data-en="No Japanese Required" data-ja="日本語不要">No Japanese Required</small>
                 </a>
             </div>
         </div>
@@ -215,7 +215,7 @@ app.get('/', (c) => {
     <!-- Trust Indicators -->
     <section class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="Trusted by Local Restaurants & Hotels" data-ja="地元のレストランやホテルから信頼されています" data-zh="深受当地餐厅和酒店信赖">
+            <h2 class="text-center section-title" data-en="Trusted by Local Restaurants & Hotels" data-ja="地元のレストランやホテルから信頼されています">
                 Trusted by Local Restaurants & Hotels
             </h2>
             <p class="text-center text-lg mb-12 max-w-3xl mx-auto" data-en="For years, we've supplied premium wagyu to Osaka's finest dining establishments. Now, you can experience the same exceptional quality our professional clients trust—at our own yakiniku bar." data-ja="長年にわたり、大阪の一流レストランに最高級和牛を提供してきました。今、プロが信頼する品質を、当店で直接お楽しみいただけます。">
@@ -225,23 +225,23 @@ app.get('/', (c) => {
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                 <div>
                     <div class="text-5xl mb-2">🏆</div>
-                    <h3 class="font-bold text-xl mb-2" data-en="Direct Butcher Shop" data-ja="精肉卸直営" data-zh="肉铺直营">Direct Butcher Shop</h3>
-                    <p class="text-sm" data-en="No middlemen" data-ja="中間業者なし" data-zh="无中间商">No middlemen</p>
+                    <h3 class="font-bold text-xl mb-2" data-en="Direct Butcher Shop" data-ja="精肉卸直営">Direct Butcher Shop</h3>
+                    <p class="text-sm" data-en="No middlemen" data-ja="中間業者なし">No middlemen</p>
                 </div>
                 <div>
                     <div class="text-5xl mb-2">👨‍🍳</div>
-                    <h3 class="font-bold text-xl mb-2" data-en="Expert Selection" data-ja="目利きの選定" data-zh="专家精选">Expert Selection</h3>
-                    <p class="text-sm" data-en="Daily quality check" data-ja="毎日の品質チェック" data-zh="每日质检">Daily quality check</p>
+                    <h3 class="font-bold text-xl mb-2" data-en="Expert Selection" data-ja="目利きの選定">Expert Selection</h3>
+                    <p class="text-sm" data-en="Daily quality check" data-ja="毎日の品質チェック">Daily quality check</p>
                 </div>
                 <div>
                     <div class="text-5xl mb-2">⭐</div>
-                    <h3 class="font-bold text-xl mb-2" data-en="Highly Rated" data-ja="高評価" data-zh="高度评价">Highly Rated</h3>
-                    <p class="text-sm" data-en="Local reviews" data-ja="地元の口コミ" data-zh="本地评论">Local reviews</p>
+                    <h3 class="font-bold text-xl mb-2" data-en="Highly Rated" data-ja="高評価">Highly Rated</h3>
+                    <p class="text-sm" data-en="Local reviews" data-ja="地元の口コミ">Local reviews</p>
                 </div>
                 <div>
                     <div class="text-5xl mb-2">🌏</div>
-                    <h3 class="font-bold text-xl mb-2" data-en="International Guests" data-ja="海外ゲスト歓迎" data-zh="国际客人">International Guests</h3>
-                    <p class="text-sm" data-en="Welcome!" data-ja="大歓迎！" data-zh="欢迎！">Welcome!</p>
+                    <h3 class="font-bold text-xl mb-2" data-en="International Guests" data-ja="海外ゲスト歓迎">International Guests</h3>
+                    <p class="text-sm" data-en="Welcome!" data-ja="大歓迎！">Welcome!</p>
                 </div>
             </div>
         </div>
@@ -250,7 +250,7 @@ app.get('/', (c) => {
     <!-- Why Choose Us -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="Why YAMARYU is Different" data-ja="やま龍が選ばれる理由" data-zh="为什么选择YAMARYU">
+            <h2 class="text-center section-title" data-en="Why YAMARYU is Different" data-ja="やま龍が選ばれる理由">
                 Why YAMARYU is Different
             </h2>
             
@@ -320,13 +320,13 @@ app.get('/', (c) => {
                     <h3 class="text-2xl font-bold mb-3" data-en="English Reservation Form" data-ja="予約フォーム">English Reservation Form</h3>
                     <p class="mb-4" data-en="Fill out our simple online form" data-ja="簡単なオンラインフォームに記入">Fill out our simple online form</p>
                     <ul class="text-left mb-6 space-y-2">
-                        <li>✓ <span data-en="Available 24/7" data-ja="24時間受付" data-zh="全天候开放">Available 24/7</span></li>
-                        <li>✓ <span data-en="No Japanese required" data-ja="日本語不要" data-zh="无需日语">No Japanese required</span></li>
-                        <li>✓ <span data-en="Confirmation within 24 hours" data-ja="24時間以内に確認" data-zh="24小时内确认">Confirmation within 24 hours</span></li>
+                        <li>✓ <span data-en="Available 24/7" data-ja="24時間受付">Available 24/7</span></li>
+                        <li>✓ <span data-en="No Japanese required" data-ja="日本語不要">No Japanese required</span></li>
+                        <li>✓ <span data-en="Confirmation within 24 hours" data-ja="24時間以内に確認">Confirmation within 24 hours</span></li>
                     </ul>
                     <a href="#reservation-form" class="btn-primary block w-full text-center">
                         <i class="fas fa-calendar-alt mr-2"></i>
-                        <span data-en="Reserve Now" data-ja="今すぐ予約" data-zh="立即预订">Reserve Now</span>
+                        <span data-en="Reserve Now" data-ja="今すぐ予約">Reserve Now</span>
                     </a>
                 </div>
             </div>
@@ -336,7 +336,7 @@ app.get('/', (c) => {
     <!-- Menu Section -->
     <section class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="Our Signature Dishes" data-ja="おすすめメニュー" data-zh="招牌菜品">
+            <h2 class="text-center section-title" data-en="Our Signature Dishes" data-ja="おすすめメニュー">
                 Our Signature Dishes
             </h2>
             <p class="text-center text-lg mb-12" data-en="Carefully Selected for Your Enjoyment" data-ja="お客様の喜びのために厳選">
@@ -463,7 +463,7 @@ app.get('/', (c) => {
     <!-- Dietary Accommodations -->
     <section class="py-16 bg-amber-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="We Welcome All Dietary Needs" data-ja="すべての食事ニーズに対応します" data-zh="欢迎所有饮食需求">
+            <h2 class="text-center section-title" data-en="We Welcome All Dietary Needs" data-ja="すべての食事ニーズに対応します">
                 We Welcome All Dietary Needs
             </h2>
             <p class="text-center text-lg mb-12" data-en="Your Safety & Comfort Matter to Us" data-ja="お客様の安全と快適さを大切にします">
@@ -540,7 +540,7 @@ app.get('/', (c) => {
     <!-- The Experience -->
     <section class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="More Than a Meal—A Memory" data-ja="ただの食事ではなく、思い出を" data-zh="不仅是一餐——更是一段回忆">
+            <h2 class="text-center section-title" data-en="More Than a Meal—A Memory" data-ja="ただの食事ではなく、思い出を">
                 More Than a Meal—A Memory
             </h2>
             <p class="text-center text-lg mb-12" data-en="What to Expect at YAMARYU" data-ja="やま龍でのご体験">
@@ -618,7 +618,7 @@ app.get('/', (c) => {
     <!-- Customer Voices -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="What Our International Guests Say" data-ja="海外からのお客様の声" data-zh="国际客人的评价">
+            <h2 class="text-center section-title" data-en="What Our International Guests Say" data-ja="海外からのお客様の声">
                 What Our International Guests Say
             </h2>
             <p class="text-center text-lg mb-12" data-en="Real Experiences from Travelers Like You" data-ja="あなたのような旅行者の本物の体験">
@@ -707,7 +707,7 @@ app.get('/', (c) => {
     <!-- Reservation Form Section -->
     <section id="reservation-form" class="py-16 bg-white">
         <div class="max-w-3xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="Make Your Reservation" data-ja="予約する" data-zh="进行预订">
+            <h2 class="text-center section-title" data-en="Make Your Reservation" data-ja="予約する">
                 Make Your Reservation
             </h2>
             <p class="text-center text-lg mb-12" data-en="Fill out this form and we'll confirm your booking within 24 hours" data-ja="このフォームに記入してください。24時間以内に予約を確認します">
@@ -802,7 +802,7 @@ app.get('/', (c) => {
     <!-- Access & Information -->
     <section class="py-16 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-center section-title" data-en="Find Us in Izumi City" data-ja="和泉市でお会いしましょう" data-zh="在和泉市找到我们">
+            <h2 class="text-center section-title" data-en="Find Us in Izumi City" data-ja="和泉市でお会いしましょう">
                 Find Us in Izumi City
             </h2>
             <p class="text-center text-lg mb-12" data-en="Easy Access from Central Osaka" data-ja="大阪中心部からアクセス良好">
@@ -896,7 +896,7 @@ app.get('/', (c) => {
     <section class="py-16 bg-gradient-to-br from-red-900 via-red-800 to-black text-white relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1558030006-450675393462?w=1600'); background-size: cover; background-position: center;">
         <div class="absolute inset-0 bg-black bg-opacity-70"></div>
         <div class="relative max-w-4xl mx-auto px-4 text-center">
-            <h2 class="font-display text-5xl mb-6" data-en="Your Osaka Wagyu Experience Awaits" data-ja="大阪和牛体験があなたを待っています" data-zh="您的大阪和牛体验正在等待">
+            <h2 class="font-display text-5xl mb-6" data-en="Your Osaka Wagyu Experience Awaits" data-ja="大阪和牛体験があなたを待っています">
                 Your Osaka Wagyu Experience Awaits
             </h2>
             <p class="text-xl mb-8 opacity-90" data-en="Join travelers from around the world who've discovered Izumi City's best-kept secret. From our butcher shop to your plate—this is wagyu as it's meant to be." data-ja="世界中の旅行者が発見した、和泉市の秘宝に参加しましょう。精肉店からあなたのお皿へ—これが本来の和牛です。">
