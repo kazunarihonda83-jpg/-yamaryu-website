@@ -392,7 +392,7 @@ app.get('/', (c) => {
                             For true meat lovers: Our signature extra-thick cut tongue is a revelation. Grilled over charcoal to achieve a crispy exterior and tender, juicy interior, this cut showcases why tongue is considered a delicacy in Japanese yakiniku culture.
                         </p>
                         <div class="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
-                            <p class="text-sm"><strong data-en="Recommended cooking:" data-ja="おすすめの焼き方：">Recommended cooking:</strong> <span data-en="Medium-rare for maximum tenderness" data-ja="ミディアムレアで最高の柔らかさ">Medium-rare for maximum tenderness</span></p data-zh="五分熟最为柔嫩">
+                            <p class="text-sm"><strong data-en="Recommended cooking:" data-ja="おすすめの焼き方：" data-zh="推荐烹饪方式：">Recommended cooking:</strong> <span data-en="Medium-rare for maximum tenderness" data-ja="ミディアムレアで最高の柔らかさ" data-zh="五分熟最为柔嫩">Medium-rare for maximum tenderness</span></p>
                         </div>
                         <p class="text-sm italic" data-en="Popular with guests who appreciate quality over quantity." data-ja="量より質を重視するお客様に人気です。" data-zh="深受注重品质胜过数量的客人喜爱。">
                             Popular with guests who appreciate quality over quantity.
@@ -427,7 +427,7 @@ app.get('/', (c) => {
                             <li>• <span data-en="Perfect with wine or beer" data-ja="ワインやビールに完璧にマッチ" data-zh="搭配葡萄酒或啤酒完美">Perfect with wine or beer</span></li>
                         </ul>
                         <div class="bg-green-50 border-l-4 border-green-400 p-4">
-                            <p class="text-sm italic" data-en="\"It's like yakiniku and pizza had a delicious baby\" - Our guests" data-ja="「焼肉とピザが美味しい赤ちゃんを産んだみたい」- お客様の声"就像烤肉和披萨生了个美味宝宝" - 我们的客人"就像烤肉和披萨生了个美味宝宝" - 我们的客人" data-zh="">
+                            <p class="text-sm italic" data-en="\"It's like yakiniku and pizza had a delicious baby\" - Our guests" data-ja="「焼肉とピザが美味しい赤ちゃんを産んだみたい」- お客様の声" data-zh=""就像烤肉和披萨生了个美味宝宝" - 我们的客人">
                                 "It's like yakiniku and pizza had a delicious baby" - Our guests
                             </p>
                         </div>
