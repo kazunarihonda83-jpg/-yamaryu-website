@@ -13,7 +13,7 @@
 
 ### 主な特徴
 
-- **多言語対応**: 英語・日本語のワンクリック切り替え（LocalStorageで言語設定保存）
+- **多言語対応**: 英語・日本語・中国語簡体字の3言語対応、ワンクリック切り替え（LocalStorageで言語設定保存）
 - **レスポンシブデザイン**: スマートフォン、タブレット、デスクトップに完全対応
 - **オンライン予約フォーム**: 英語での予約受付システム
 - **Instagram連携**: @yamaryu_bar への直接リンク
@@ -35,7 +35,7 @@
 ✅ **予約システム**: Instagram DM + オンラインフォーム  
 ✅ **お客様の声**: 海外ゲストのレビュー  
 ✅ **店舗情報・アクセス**: 営業時間、地図、連絡先  
-✅ **多言語切り替え**: 右上の言語スイッチャーで英語⇔日本語  
+✅ **多言語切り替え**: 右上の言語スイッチャーで英語⇔日本語⇔中国語簡体字  
 ✅ **フローティングCTA**: 常時表示の予約ボタン  
 
 ### 今後実装可能な機能（オプション）
@@ -52,7 +52,7 @@
 - **ビルドツール**: Vite v6.3+
 - **スタイリング**: Tailwind CSS (CDN)
 - **アイコン**: Font Awesome 6.4
-- **フォント**: Google Fonts (Noto Sans JP, Playfair Display)
+- **フォント**: Google Fonts (Noto Sans JP, Noto Sans SC, Playfair Display)
 - **HTTPクライアント**: Axios 1.6
 - **言語**: TypeScript
 - **デプロイ**: Cloudflare Pages
@@ -168,7 +168,8 @@ npm run test             # サービス動作確認（curl）
 
 ### 言語切り替え
 
-- 右上の「🌐 日本語 / English」ボタンをクリック
+- 右上の「🌐 EN / 日本語 / 简体中文」ボタンをクリック
+- クリックするたびに EN → 日本語 → 简体中文 → EN の順で切り替わります
 - 設定はブラウザのLocalStorageに保存され、次回訪問時も維持されます
 
 ### 予約方法
@@ -237,7 +238,7 @@ npm run test             # サービス動作確認（curl）
 - [ ] 実際の店舗写真の追加
 - [ ] 予約フォームからのメール通知実装
 - [ ] Google Analytics / Google Tag Manager連携
-- [ ] 多言語対応の拡張（中国語、韓国語など）
+- [ ] 多言語対応の拡張（繁体字、韓国語など）
 - [ ] CMSとの連携（メニュー管理）
 - [ ] オンライン決済機能
 
@@ -255,5 +256,5 @@ npm run test             # サービス動作確認（curl）
 ---
 
 **Last Updated**: 2026-01-08  
-**Version**: 1.0.0  
-**Status**: ✅ Development Complete - Ready for Production Deploy
+**Version**: 1.1.0  
+**Status**: ✅ 3-Language Support Complete - Ready for Production Deploy
