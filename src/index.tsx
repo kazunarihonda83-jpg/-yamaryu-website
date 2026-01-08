@@ -175,7 +175,7 @@ app.get('/', (c) => {
     </div>
 
     <!-- Hero Section -->
-    <section class="relative h-screen flex items-center justify-center text-white" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1544025162-d76694265947?w=1600') center/cover;">
+    <section class="relative h-screen flex items-center justify-center text-white" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://files.oaiusercontent.com/file-fNI8oKbnT4BqhI3L0O32fV?se=2026-01-08T08%3A54%3A54Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.jpg&sig=lBaBgIFLHg%2BRV0c7K1fQ3B/3tTxJRJFRN9d71VRYkuw%3D') center/cover;">
         <div class="text-center px-4 max-w-4xl mx-auto">
             <h1 class="font-display text-5xl md:text-7xl mb-6" data-en="Experience Osaka's Finest Wagyu" data-ja="大阪最高級の和牛体験" data-zh="体验大阪顶级和牛">
                 Experience Osaka's Finest Wagyu
