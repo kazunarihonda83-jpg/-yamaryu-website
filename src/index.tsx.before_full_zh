@@ -218,7 +218,7 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="Trusted by Local Restaurants & Hotels" data-ja="地元のレストランやホテルから信頼されています" data-zh="深受当地餐厅和酒店信赖">
                 Trusted by Local Restaurants & Hotels
             </h2>
-            <p class="text-center text-lg mb-12 max-w-3xl mx-auto" data-en="For years, we've supplied premium wagyu to Osaka's finest dining establishments. Now, you can experience the same exceptional quality our professional clients trust—at our own yakiniku bar." data-ja="長年にわたり、大阪の一流レストランに最高級和牛を提供してきました。今、プロが信頼する品質を、当店で直接お楽しみいただけます。" data-zh="多年来，我们一直向大阪顶级餐厅供应优质和牛。现在，您可以在我们自己的烤肉店品尝到专业客户信赖的同等卓越品质。">
+            <p class="text-center text-lg mb-12 max-w-3xl mx-auto" data-en="For years, we've supplied premium wagyu to Osaka's finest dining establishments. Now, you can experience the same exceptional quality our professional clients trust—at our own yakiniku bar." data-ja="長年にわたり、大阪の一流レストランに最高級和牛を提供してきました。今、プロが信頼する品質を、当店で直接お楽しみいただけます。">
                 For years, we've supplied premium wagyu to Osaka's finest dining establishments. Now, you can experience the same exceptional quality our professional clients trust—at our own yakiniku bar.
             </p>
             
@@ -257,32 +257,32 @@ app.get('/', (c) => {
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-12">
                 <div class="card text-center">
                     <div class="text-5xl mb-4">🥩</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="Direct from Our Butcher Shop" data-ja="精肉卸直営の強み" data-zh="肉铺直营的优势">Direct from Our Butcher Shop</h3>
-                    <p class="text-sm" data-en="We're not just a restaurant—we're wagyu specialists. Every morning, our expert butchers select the finest cuts. What you eat today was chosen by professionals who've dedicated their lives to understanding beef quality." data-ja="当店は単なるレストランではなく、和牛のスペシャリストです。毎朝、熟練の肉職人が最高の部位を厳選。今日召し上がる肉は、牛肉の品質を極めたプロフェッショナルが選んだものです。" data-zh="我们不仅仅是一家餐厅，更是和牛专家。每天早晨，我们的专业屠夫精选最优质的部位。您今天享用的和牛，都是由致力于了解牛肉品质的专业人士精心挑选的。">
+                    <h3 class="font-bold text-xl mb-3" data-en="Direct from Our Butcher Shop" data-ja="精肉卸直営の強み">Direct from Our Butcher Shop</h3>
+                    <p class="text-sm" data-en="We're not just a restaurant—we're wagyu specialists. Every morning, our expert butchers select the finest cuts. What you eat today was chosen by professionals who've dedicated their lives to understanding beef quality." data-ja="当店は単なるレストランではなく、和牛のスペシャリストです。毎朝、熟練の肉職人が最高の部位を厳選。今日召し上がる肉は、牛肉の品質を極めたプロフェッショナルが選んだものです。">
                         We're not just a restaurant—we're wagyu specialists. Every morning, our expert butchers select the finest cuts. What you eat today was chosen by professionals who've dedicated their lives to understanding beef quality.
                     </p>
                 </div>
                 
                 <div class="card text-center">
                     <div class="text-5xl mb-4">🏮</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="Private Booth-Style Seating" data-ja="個室風プライベート空間" data-zh="包间式私密空间">Private Booth-Style Seating</h3>
-                    <p class="text-sm" data-en="Enjoy your meal in semi-private spaces that blend modern bar aesthetics with traditional Japanese warmth. Perfect for couples, families, or small groups who want to relax without worrying about crowds." data-ja="モダンなバルの美学と伝統的な日本の温かさが融合した、半個室空間でお食事をお楽しみください。カップル、ファミリー、少人数グループに最適です。" data-zh="在融合现代酒吧美学与传统日式温馨的半私密空间享用美食。非常适合情侣、家庭或小团体。">
+                    <h3 class="font-bold text-xl mb-3" data-en="Private Booth-Style Seating" data-ja="個室風プライベート空間">Private Booth-Style Seating</h3>
+                    <p class="text-sm" data-en="Enjoy your meal in semi-private spaces that blend modern bar aesthetics with traditional Japanese warmth. Perfect for couples, families, or small groups who want to relax without worrying about crowds." data-ja="モダンなバルの美学と伝統的な日本の温かさが融合した、半個室空間でお食事をお楽しみください。カップル、ファミリー、少人数グループに最適です。">
                         Enjoy your meal in semi-private spaces that blend modern bar aesthetics with traditional Japanese warmth. Perfect for couples, families, or small groups who want to relax without worrying about crowds.
                     </p>
                 </div>
                 
                 <div class="card text-center">
                     <div class="text-5xl mb-4">🍕</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="Yakiniku Meets Italian" data-ja="焼肉×イタリアン" data-zh="烤肉遇见意式">Yakiniku Meets Italian</h3>
-                    <p class="text-sm" data-en="Only at YAMARYU: Our signature Stone-Baked Yakiniku Pizza combines premium wagyu with Italian craftsmanship. It's an unexpected fusion that delights both adults and children alike." data-ja="やま龍限定：石窯で焼く焼肉ピザは、最高級和牛とイタリアの職人技の融合。大人も子供も喜ぶ、予想を超えた美味しさです。" data-zh="YAMARYU独家：我们的招牌石烤烤肉披萨将优质和牛与意式工艺完美结合。这是一种令成人和儿童都喜爱的意外美味。">
+                    <h3 class="font-bold text-xl mb-3" data-en="Yakiniku Meets Italian" data-ja="焼肉×イタリアン">Yakiniku Meets Italian</h3>
+                    <p class="text-sm" data-en="Only at YAMARYU: Our signature Stone-Baked Yakiniku Pizza combines premium wagyu with Italian craftsmanship. It's an unexpected fusion that delights both adults and children alike." data-ja="やま龍限定：石窯で焼く焼肉ピザは、最高級和牛とイタリアの職人技の融合。大人も子供も喜ぶ、予想を超えた美味しさです。">
                         Only at YAMARYU: Our signature Stone-Baked Yakiniku Pizza combines premium wagyu with Italian craftsmanship. It's an unexpected fusion that delights both adults and children alike.
                     </p>
                 </div>
                 
                 <div class="card text-center">
                     <div class="text-5xl mb-4">💬</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="We Speak Your Language" data-ja="あなたの言葉で対応" data-zh="用您的语言服务">We Speak Your Language</h3>
-                    <p class="text-sm" data-en="Small restaurant, big hearts. With just 12 staff members, we offer personalized attention that large chains can't match. English reservations available through Instagram or our online form." data-ja="小規模店ならではの心からのおもてなし。スタッフ12名だからこそできる、きめ細かい対応。英語予約はInstagramまたはオンラインフォームで承ります。" data-zh="小餐厅，大用心。仅有12名员工，我们提供大型连锁店无法比拟的个性化服务。可通过Instagram或在线表格进行英文预订。">
+                    <h3 class="font-bold text-xl mb-3" data-en="We Speak Your Language" data-ja="あなたの言葉で対応">We Speak Your Language</h3>
+                    <p class="text-sm" data-en="Small restaurant, big hearts. With just 12 staff members, we offer personalized attention that large chains can't match. English reservations available through Instagram or our online form." data-ja="小規模店ならではの心からのおもてなし。スタッフ12名だからこそできる、きめ細かい対応。英語予約はInstagramまたはオンラインフォームで承ります。">
                         Small restaurant, big hearts. With just 12 staff members, we offer personalized attention that large chains can't match. English reservations available through Instagram or our online form.
                     </p>
                 </div>
@@ -301,16 +301,16 @@ app.get('/', (c) => {
                 <!-- Instagram DM -->
                 <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
                     <div class="text-5xl mb-4">📱</div>
-                    <h3 class="text-2xl font-bold mb-3" data-en="Instagram Direct Message" data-ja="Instagram DM" data-zh="Instagram私信">Instagram Direct Message</h3>
-                    <p class="mb-4" data-en="Send us a DM @yamaryu_bar" data-ja="@yamaryu_barにDMを送信" data-zh="发送私信至@yamaryu_bar">Send us a DM @yamaryu_bar</p>
+                    <h3 class="text-2xl font-bold mb-3" data-en="Instagram Direct Message" data-ja="Instagram DM">Instagram Direct Message</h3>
+                    <p class="mb-4" data-en="Send us a DM @yamaryu_bar" data-ja="@yamaryu_barにDMを送信">Send us a DM @yamaryu_bar</p>
                     <ul class="text-left mb-6 space-y-2">
-                        <li>✓ <span data-en="Instant responses (usually within 1 hour)" data-ja="即座に返信（通常1時間以内）" data-zh="即时回复（通常1小时内）">Instant responses (usually within 1 hour)</span></li>
-                        <li>✓ <span data-en="Easy to share photos & questions" data-ja="写真や質問を簡単に共有" data-zh="轻松分享照片和提问">Easy to share photos & questions</span></li>
-                        <li>✓ <span data-en="Friendly, casual communication" data-ja="フレンドリーでカジュアルなやり取り" data-zh="友好、轻松的交流">Friendly, casual communication</span></li>
+                        <li>✓ <span data-en="Instant responses (usually within 1 hour)" data-ja="即座に返信（通常1時間以内）">Instant responses (usually within 1 hour)</span></li>
+                        <li>✓ <span data-en="Easy to share photos & questions" data-ja="写真や質問を簡単に共有">Easy to share photos & questions</span></li>
+                        <li>✓ <span data-en="Friendly, casual communication" data-ja="フレンドリーでカジュアルなやり取り">Friendly, casual communication</span></li>
                     </ul>
                     <a href="https://www.instagram.com/direct/t/yamaryu_bar" target="_blank" class="btn-primary btn-instagram block w-full text-center">
                         <i class="fab fa-instagram mr-2"></i>
-                        <span data-en="Message on Instagram" data-ja="Instagramでメッセージ" data-zh="在Instagram上留言">Message on Instagram</span>
+                        <span data-en="Message on Instagram" data-ja="Instagramでメッセージ">Message on Instagram</span>
                     </a>
                 </div>
                 
@@ -318,7 +318,7 @@ app.get('/', (c) => {
                 <div class="bg-white bg-opacity-10 backdrop-blur-lg rounded-xl p-6">
                     <div class="text-5xl mb-4">📝</div>
                     <h3 class="text-2xl font-bold mb-3" data-en="English Reservation Form" data-ja="予約フォーム">English Reservation Form</h3>
-                    <p class="mb-4" data-en="Fill out our simple online form" data-ja="簡単なオンラインフォームに記入" data-zh="填写简单的在线表格">Fill out our simple online form</p>
+                    <p class="mb-4" data-en="Fill out our simple online form" data-ja="簡単なオンラインフォームに記入">Fill out our simple online form</p>
                     <ul class="text-left mb-6 space-y-2">
                         <li>✓ <span data-en="Available 24/7" data-ja="24時間受付" data-zh="全天候开放">Available 24/7</span></li>
                         <li>✓ <span data-en="No Japanese required" data-ja="日本語不要" data-zh="无需日语">No Japanese required</span></li>
@@ -339,7 +339,7 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="Our Signature Dishes" data-ja="おすすめメニュー" data-zh="招牌菜品">
                 Our Signature Dishes
             </h2>
-            <p class="text-center text-lg mb-12" data-en="Carefully Selected for Your Enjoyment" data-ja="お客様の喜びのために厳選" data-zh="为您精心挑选">
+            <p class="text-center text-lg mb-12" data-en="Carefully Selected for Your Enjoyment" data-ja="お客様の喜びのために厳選">
                 Carefully Selected for Your Enjoyment
             </p>
             
@@ -351,29 +351,29 @@ app.get('/', (c) => {
                     </div>
                     <div>
                         <div class="inline-block bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-bold mb-4">
-                            🏆 <span data-en="Most Popular" data-ja="人気No.1" data-zh="最受欢迎">Most Popular</span>
+                            🏆 <span data-en="Most Popular" data-ja="人気No.1">Most Popular</span>
                         </div>
-                        <h3 class="text-3xl font-bold mb-4" data-en="YAMARYU Premium Wagyu Set (Full)" data-ja="やま龍 上撰セット（3〜4名様用）" data-zh="YAMARYU特选和牛套餐（3-4人份）">YAMARYU Premium Wagyu Set (Full)</h3>
-                        <p class="text-2xl text-red-700 font-bold mb-4">¥8,118 <span class="text-sm font-normal" data-en="(tax included, for 3-4 people)" data-ja="（税込・3〜4名様用）" data-zh="（含税，3-4人份）">(tax included, for 3-4 people)</span></p>
-                        <p class="mb-4" data-en="Our butcher's choice of the day's finest wagyu cuts, beautifully presented with grilled seasonal vegetables. This generous set includes:" data-ja="その日の最高級和牛を、肉職人が厳選。美しく盛り付けられた旬の焼き野菜とともに。このボリューム満点のセットには以下が含まれます：" data-zh="我们的屠夫精选当日最优质的和牛部位，搭配精美呈现的时令烤蔬菜。这份丰盛的套餐包括：">
+                        <h3 class="text-3xl font-bold mb-4" data-en="YAMARYU Premium Wagyu Set (Full)" data-ja="やま龍 上撰セット（3〜4名様用）">YAMARYU Premium Wagyu Set (Full)</h3>
+                        <p class="text-2xl text-red-700 font-bold mb-4">¥8,118 <span class="text-sm font-normal" data-en="(tax included, for 3-4 people)" data-ja="（税込・3〜4名様用）">(tax included, for 3-4 people)</span></p>
+                        <p class="mb-4" data-en="Our butcher's choice of the day's finest wagyu cuts, beautifully presented with grilled seasonal vegetables. This generous set includes:" data-ja="その日の最高級和牛を、肉職人が厳選。美しく盛り付けられた旬の焼き野菜とともに。このボリューム満点のセットには以下が含まれます：">
                             Our butcher's choice of the day's finest wagyu cuts, beautifully presented with grilled seasonal vegetables. This generous set includes:
                         </p>
                         <ul class="space-y-2 mb-6">
-                            <li>• <strong data-en="Premium tongue (上タン)" data-ja="上タン" data-zh="特选牛舌">Premium tongue (上タン)</strong> - <span data-en="Rich, tender, melt-in-your-mouth" data-ja="濃厚で柔らか、口の中でとろける" data-zh="浓郁、柔嫩、入口即化">Rich, tender, melt-in-your-mouth</span></li>
-                            <li>• <strong data-en="Premium loin (上ロース)" data-ja="上ロース" data-zh="特选里脊">Premium loin (上ロース)</strong> - <span data-en="Perfectly marbled for maximum flavor" data-ja="完璧な霜降りで最高の風味" data-zh="完美的大理石纹理，风味十足">Perfectly marbled for maximum flavor</span></li>
-                            <li>• <strong data-en="Aged premium skirt steak (熟成上はらみ)" data-ja="熟成上はらみ" data-zh="熟成特选横膈膜">Aged premium skirt steak (熟成上はらみ)</strong> - <span data-en="Our signature aged cut" data-ja="当店自慢の熟成肉" data-zh="我们的招牌熟成肉">Our signature aged cut</span></li>
-                            <li>• <strong data-en="Assorted premium wagyu" data-ja="和牛盛り合わせ" data-zh="精选和牛拼盘">Assorted premium wagyu</strong> - <span data-en="Selected by our expert butcher daily" data-ja="肉職人が毎日厳選" data-zh="每日由专业屠夫精选">Selected by our expert butcher daily</span></li>
-                            <li>• <strong data-en="Seasonal grilled vegetables" data-ja="旬の焼き野菜" data-zh="时令烤蔬菜">Seasonal grilled vegetables</strong></li>
+                            <li>• <strong data-en="Premium tongue (上タン)" data-ja="上タン">Premium tongue (上タン)</strong> - <span data-en="Rich, tender, melt-in-your-mouth" data-ja="濃厚で柔らか、口の中でとろける">Rich, tender, melt-in-your-mouth</span></li>
+                            <li>• <strong data-en="Premium loin (上ロース)" data-ja="上ロース">Premium loin (上ロース)</strong> - <span data-en="Perfectly marbled for maximum flavor" data-ja="完璧な霜降りで最高の風味">Perfectly marbled for maximum flavor</span></li>
+                            <li>• <strong data-en="Aged premium skirt steak (熟成上はらみ)" data-ja="熟成上はらみ">Aged premium skirt steak (熟成上はらみ)</strong> - <span data-en="Our signature aged cut" data-ja="当店自慢の熟成肉">Our signature aged cut</span></li>
+                            <li>• <strong data-en="Assorted premium wagyu" data-ja="和牛盛り合わせ">Assorted premium wagyu</strong> - <span data-en="Selected by our expert butcher daily" data-ja="肉職人が毎日厳選">Selected by our expert butcher daily</span></li>
+                            <li>• <strong data-en="Seasonal grilled vegetables" data-ja="旬の焼き野菜">Seasonal grilled vegetables</strong></li>
                         </ul>
                         <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-4">
-                            <p class="text-sm" data-en="Perfect for sharing and discovering the full range of wagyu flavors." data-ja="シェアして和牛の多彩な味わいを発見するのに最適です。" data-zh="非常适合分享，探索和牛的全方位风味。">
+                            <p class="text-sm" data-en="Perfect for sharing and discovering the full range of wagyu flavors." data-ja="シェアして和牛の多彩な味わいを発見するのに最適です。">
                                 Perfect for sharing and discovering the full range of wagyu flavors.
                             </p>
                         </div>
                         
-                        <h4 class="text-xl font-bold mt-6 mb-2" data-en="Half Set (1.5-2 People)" data-ja="ハーフセット（1.5〜2名様用）" data-zh="半份套餐（1.5-2人份）">Half Set (1.5-2 People)</h4>
-                        <p class="text-xl text-red-700 font-bold mb-2">¥5,368 <span class="text-sm font-normal" data-en="(tax included)" data-ja="（税込）" data-zh="（含税）">(tax included)</span></p>
-                        <p class="text-sm" data-en="All the quality of our full set, perfectly portioned for two. Ideal for couples or those who want to try our premium selection without overordering." data-ja="フルセットと同じ品質を、2名様にちょうど良い量で。カップルや、過度な注文を避けたい方に最適です。" data-zh="与全份套餐品质相同，完美的双人份量。非常适合情侣或希望不过量点餐的客人。">
+                        <h4 class="text-xl font-bold mt-6 mb-2" data-en="Half Set (1.5-2 People)" data-ja="ハーフセット（1.5〜2名様用）">Half Set (1.5-2 People)</h4>
+                        <p class="text-xl text-red-700 font-bold mb-2">¥5,368 <span class="text-sm font-normal" data-en="(tax included)" data-ja="（税込）">(tax included)</span></p>
+                        <p class="text-sm" data-en="All the quality of our full set, perfectly portioned for two. Ideal for couples or those who want to try our premium selection without overordering." data-ja="フルセットと同じ品質を、2名様にちょうど良い量で。カップルや、過度な注文を避けたい方に最適です。">
                             All the quality of our full set, perfectly portioned for two. Ideal for couples or those who want to try our premium selection without overordering.
                         </p>
                     </div>
@@ -385,16 +385,16 @@ app.get('/', (c) => {
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div class="order-2 md:order-1">
                         <div class="inline-block bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-4">
-                            👨‍🍳 <span data-en="Chef's Recommendation" data-ja="シェフのおすすめ" data-zh="主厨推荐">Chef's Recommendation</span>
+                            👨‍🍳 <span data-en="Chef's Recommendation" data-ja="シェフのおすすめ">Chef's Recommendation</span>
                         </div>
-                        <h3 class="text-3xl font-bold mb-4" data-en="Extra-Thick Cut Premium Tongue" data-ja="特選厚切りタン" data-zh="特厚切特选牛舌">Extra-Thick Cut Premium Tongue</h3>
-                        <p class="mb-4" data-en="For true meat lovers: Our signature extra-thick cut tongue is a revelation. Grilled over charcoal to achieve a crispy exterior and tender, juicy interior, this cut showcases why tongue is considered a delicacy in Japanese yakiniku culture." data-ja="本物の肉好きのために：当店自慢の特選厚切りタンは、まさに感動の一品。炭火で焼き上げることで外はカリッと、中はジューシーで柔らか。なぜタンが日本の焼肉文化で珍味とされているのかを体感できます。" data-zh="献给真正的肉食爱好者：我们的招牌特厚切牛舌令人惊艳。炭火烤制，外脆内嫩多汁，完美展现了为何牛舌在日式烤肉文化中被视为珍馐。">
+                        <h3 class="text-3xl font-bold mb-4" data-en="Extra-Thick Cut Premium Tongue" data-ja="特選厚切りタン">Extra-Thick Cut Premium Tongue</h3>
+                        <p class="mb-4" data-en="For true meat lovers: Our signature extra-thick cut tongue is a revelation. Grilled over charcoal to achieve a crispy exterior and tender, juicy interior, this cut showcases why tongue is considered a delicacy in Japanese yakiniku culture." data-ja="本物の肉好きのために：当店自慢の特選厚切りタンは、まさに感動の一品。炭火で焼き上げることで外はカリッと、中はジューシーで柔らか。なぜタンが日本の焼肉文化で珍味とされているのかを体感できます。">
                             For true meat lovers: Our signature extra-thick cut tongue is a revelation. Grilled over charcoal to achieve a crispy exterior and tender, juicy interior, this cut showcases why tongue is considered a delicacy in Japanese yakiniku culture.
                         </p>
                         <div class="bg-red-50 border-l-4 border-red-400 p-4 mb-4">
-                            <p class="text-sm"><strong data-en="Recommended cooking:" data-ja="おすすめの焼き方：" data-zh="推荐烹饪方式：">Recommended cooking:</strong> <span data-en="Medium-rare for maximum tenderness" data-ja="ミディアムレアで最高の柔らかさ" data-zh="五分熟最为柔嫩">Medium-rare for maximum tenderness</span></p>
+                            <p class="text-sm"><strong data-en="Recommended cooking:" data-ja="おすすめの焼き方：">Recommended cooking:</strong> <span data-en="Medium-rare for maximum tenderness" data-ja="ミディアムレアで最高の柔らかさ">Medium-rare for maximum tenderness</span></p>
                         </div>
-                        <p class="text-sm italic" data-en="Popular with guests who appreciate quality over quantity." data-ja="量より質を重視するお客様に人気です。" data-zh="深受注重品质胜过数量的客人喜爱。">
+                        <p class="text-sm italic" data-en="Popular with guests who appreciate quality over quantity." data-ja="量より質を重視するお客様に人気です。">
                             Popular with guests who appreciate quality over quantity.
                         </p>
                     </div>
@@ -412,22 +412,22 @@ app.get('/', (c) => {
                     </div>
                     <div>
                         <div class="inline-block bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-4">
-                            👨‍👩‍👧‍👦 <span data-en="Family Favorite" data-ja="ファミリーに人気" data-zh="家庭最爱">Family Favorite</span>
+                            👨‍👩‍👧‍👦 <span data-en="Family Favorite" data-ja="ファミリーに人気">Family Favorite</span>
                         </div>
-                        <h3 class="text-3xl font-bold mb-4" data-en="Stone-Baked Yakiniku Pizza Bianco" data-ja="焼肉ピザ ビアンコ" data-zh="石烤烤肉白披萨">Stone-Baked Yakiniku Pizza Bianco</h3>
-                        <p class="text-2xl text-red-700 font-bold mb-4">¥1,738 <span class="text-sm font-normal" data-en="(tax included)" data-ja="（税込）" data-zh="（含税）">(tax included)</span></p>
-                        <p class="mb-4" data-en="A YAMARYU original: Premium wagyu meets Italian stone-oven pizza. Thin, crispy crust topped with our tender beef, fresh cheese, and aromatic herbs. Baked to perfection in our traditional stone oven." data-ja="やま龍オリジナル：最高級和牛とイタリアの石窯ピザの出会い。薄くてパリパリのクラストに、柔らかな牛肉、新鮮なチーズ、香り高いハーブをトッピング。伝統的な石窯で完璧に焼き上げます。" data-zh="YAMARYU原创：优质和牛遇见意式石窑披萨。薄脆的饼底，配上我们柔嫩的牛肉、新鲜奶酪和芳香草本。在传统石窑中烤制至完美。">
+                        <h3 class="text-3xl font-bold mb-4" data-en="Stone-Baked Yakiniku Pizza Bianco" data-ja="焼肉ピザ ビアンコ">Stone-Baked Yakiniku Pizza Bianco</h3>
+                        <p class="text-2xl text-red-700 font-bold mb-4">¥1,738 <span class="text-sm font-normal" data-en="(tax included)" data-ja="（税込）">(tax included)</span></p>
+                        <p class="mb-4" data-en="A YAMARYU original: Premium wagyu meets Italian stone-oven pizza. Thin, crispy crust topped with our tender beef, fresh cheese, and aromatic herbs. Baked to perfection in our traditional stone oven." data-ja="やま龍オリジナル：最高級和牛とイタリアの石窯ピザの出会い。薄くてパリパリのクラストに、柔らかな牛肉、新鮮なチーズ、香り高いハーブをトッピング。伝統的な石窯で完璧に焼き上げます。">
                             A YAMARYU original: Premium wagyu meets Italian stone-oven pizza. Thin, crispy crust topped with our tender beef, fresh cheese, and aromatic herbs. Baked to perfection in our traditional stone oven.
                         </p>
-                        <h4 class="font-bold mb-2" data-en="Why guests love it:" data-ja="お客様が愛する理由：" data-zh="客人喜爱的理由：">Why guests love it:</h4>
+                        <h4 class="font-bold mb-2" data-en="Why guests love it:" data-ja="お客様が愛する理由：">Why guests love it:</h4>
                         <ul class="space-y-2 mb-6">
-                            <li>• <span data-en="Children adore it (great for families!)" data-ja="お子様が大好き（ファミリーに最適！）" data-zh="孩子们超爱（家庭聚餐首选！）">Children adore it (great for families!)</span></li>
-                            <li>• <span data-en="Lighter option for those who want variety" data-ja="バラエティを求める方に軽めの選択肢" data-zh="想要多样化的轻量选择">Lighter option for those who want variety</span></li>
-                            <li>• <span data-en="Unique fusion you won't find elsewhere" data-ja="他では味わえないユニークな融合" data-zh="独一无二的融合，别处难觅">Unique fusion you won't find elsewhere</span></li>
-                            <li>• <span data-en="Perfect with wine or beer" data-ja="ワインやビールに完璧にマッチ" data-zh="搭配葡萄酒或啤酒完美">Perfect with wine or beer</span></li>
+                            <li>• <span data-en="Children adore it (great for families!)" data-ja="お子様が大好き（ファミリーに最適！）">Children adore it (great for families!)</span></li>
+                            <li>• <span data-en="Lighter option for those who want variety" data-ja="バラエティを求める方に軽めの選択肢">Lighter option for those who want variety</span></li>
+                            <li>• <span data-en="Unique fusion you won't find elsewhere" data-ja="他では味わえないユニークな融合">Unique fusion you won't find elsewhere</span></li>
+                            <li>• <span data-en="Perfect with wine or beer" data-ja="ワインやビールに完璧にマッチ">Perfect with wine or beer</span></li>
                         </ul>
                         <div class="bg-green-50 border-l-4 border-green-400 p-4">
-                            <p class="text-sm italic" data-en="\"It's like yakiniku and pizza had a delicious baby\" - Our guests" data-ja="「焼肉とピザが美味しい赤ちゃんを産んだみたい」- お客様の声" data-zh=""就像烤肉和披萨生了个美味宝宝" - 我们的客人">
+                            <p class="text-sm italic" data-en="\"It's like yakiniku and pizza had a delicious baby\" - Our guests" data-ja="「焼肉とピザが美味しい赤ちゃんを産んだみたい」- お客様の声">
                                 "It's like yakiniku and pizza had a delicious baby" - Our guests
                             </p>
                         </div>
@@ -439,23 +439,23 @@ app.get('/', (c) => {
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400" alt="Aged Skirt Steak" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h4 class="font-bold text-xl mb-2" data-en="Aged Premium Skirt Steak" data-ja="熟成上はらみ" data-zh="熟成特选横膈膜">Aged Premium Skirt Steak</h4>
-                    <p class="text-sm" data-en="Our signature aged cut—tender, flavorful, unforgettable" data-ja="当店自慢の熟成肉—柔らか、風味豊か、忘れられない" data-zh="我们的招牌熟成肉——柔嫩、风味浓郁、难以忘怀">Our signature aged cut—tender, flavorful, unforgettable</p>
+                    <h4 class="font-bold text-xl mb-2" data-en="Aged Premium Skirt Steak" data-ja="熟成上はらみ">Aged Premium Skirt Steak</h4>
+                    <p class="text-sm" data-en="Our signature aged cut—tender, flavorful, unforgettable" data-ja="当店自慢の熟成肉—柔らか、風味豊か、忘れられない">Our signature aged cut—tender, flavorful, unforgettable</p>
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1504544750208-dc0358e63f7f?w=400" alt="Wagyu Tataki" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h4 class="font-bold text-xl mb-2" data-en="Wagyu Red Meat Tataki" data-ja="和牛赤身の炙り" data-zh="和牛赤身炙烤">Wagyu Red Meat Tataki</h4>
-                    <p class="text-sm" data-en="Lightly seared wagyu served carpaccio-style" data-ja="軽く炙った和牛をカルパッチョ風で" data-zh="轻炙和牛，卡帕乔式呈现">Lightly seared wagyu served carpaccio-style</p>
+                    <h4 class="font-bold text-xl mb-2" data-en="Wagyu Red Meat Tataki" data-ja="和牛赤身の炙り">Wagyu Red Meat Tataki</h4>
+                    <p class="text-sm" data-en="Lightly seared wagyu served carpaccio-style" data-ja="軽く炙った和牛をカルパッチョ風で">Lightly seared wagyu served carpaccio-style</p>
                 </div>
                 <div class="card">
                     <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400" alt="Desserts" class="rounded-lg mb-4 w-full h-48 object-cover">
-                    <h4 class="font-bold text-xl mb-2" data-en="Homemade Desserts" data-ja="自家製デザート" data-zh="自制甜点">Homemade Desserts</h4>
-                    <p class="text-sm" data-en="Sweet endings made in-house daily" data-ja="毎日店内で手作りする甘いフィニッシュ" data-zh="每日店内手工制作的甜蜜结尾">Sweet endings made in-house daily</p>
+                    <h4 class="font-bold text-xl mb-2" data-en="Homemade Desserts" data-ja="自家製デザート">Homemade Desserts</h4>
+                    <p class="text-sm" data-en="Sweet endings made in-house daily" data-ja="毎日店内で手作りする甘いフィニッシュ">Sweet endings made in-house daily</p>
                 </div>
             </div>
             
             <div class="mt-8 text-center bg-yellow-50 p-6 rounded-lg">
-                <p class="text-lg">💡 <span data-en="Not sure what to order? Our staff are happy to recommend based on your preferences. Just ask when you reserve!" data-ja="何を注文すればいいかわからない？スタッフがお好みに合わせておすすめします。予約時にお気軽にお尋ねください！" data-zh="不确定点什么？我们的员工很乐意根据您的喜好推荐。预订时随时询问！">Not sure what to order? Our staff are happy to recommend based on your preferences. Just ask when you reserve!</span></p>
+                <p class="text-lg">💡 <span data-en="Not sure what to order? Our staff are happy to recommend based on your preferences. Just ask when you reserve!" data-ja="何を注文すればいいかわからない？スタッフがお好みに合わせておすすめします。予約時にお気軽にお尋ねください！">Not sure what to order? Our staff are happy to recommend based on your preferences. Just ask when you reserve!</span></p>
             </div>
         </div>
     </section>
@@ -466,11 +466,11 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="We Welcome All Dietary Needs" data-ja="すべての食事ニーズに対応します" data-zh="欢迎所有饮食需求">
                 We Welcome All Dietary Needs
             </h2>
-            <p class="text-center text-lg mb-12" data-en="Your Safety & Comfort Matter to Us" data-ja="お客様の安全と快適さを大切にします" data-zh="您的安全与舒适至关重要">
+            <p class="text-center text-lg mb-12" data-en="Your Safety & Comfort Matter to Us" data-ja="お客様の安全と快適さを大切にします">
                 Your Safety & Comfort Matter to Us
             </p>
             
-            <p class="text-center max-w-3xl mx-auto mb-12" data-en="At YAMARYU, we believe everyone deserves to enjoy exceptional wagyu—regardless of dietary restrictions or religious requirements. Our small team takes pride in accommodating your needs with care and respect." data-ja="やま龍では、食事制限や宗教的な要件に関わらず、すべての人が最高の和牛を楽しむべきだと信じています。少人数のチームだからこそ、心を込めて丁寧に対応いたします。" data-zh="在YAMARYU，我们相信每个人都应该享受卓越的和牛——无论饮食限制或宗教要求如何。我们的小团队以用心和尊重满足您的需求为荣。">
+            <p class="text-center max-w-3xl mx-auto mb-12" data-en="At YAMARYU, we believe everyone deserves to enjoy exceptional wagyu—regardless of dietary restrictions or religious requirements. Our small team takes pride in accommodating your needs with care and respect." data-ja="やま龍では、食事制限や宗教的な要件に関わらず、すべての人が最高の和牛を楽しむべきだと信じています。少人数のチームだからこそ、心を込めて丁寧に対応いたします。">
                 At YAMARYU, we believe everyone deserves to enjoy exceptional wagyu—regardless of dietary restrictions or religious requirements. Our small team takes pride in accommodating your needs with care and respect.
             </p>
             
@@ -478,60 +478,60 @@ app.get('/', (c) => {
                 <!-- Allergy Information -->
                 <div class="card">
                     <div class="text-5xl mb-4">🏥</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="Allergy-Friendly Options" data-ja="アレルギー対応オプション" data-zh="过敏友好选项">Allergy-Friendly Options</h3>
-                    <p class="text-sm mb-4" data-en="We take food allergies seriously. Please inform us of any allergies when making your reservation, and our chef will prepare your meal with dedicated utensils and careful attention to cross-contamination." data-ja="食物アレルギーを真剣に受け止めています。予約時にアレルギーをお知らせいただければ、専用の調理器具を使用し、交差汚染に細心の注意を払って調理いたします。" data-zh="我们认真对待食物过敏。预订时请告知任何过敏信息，我们的厨师将使用专用器具并仔细注意交叉污染来准备您的餐点。">
+                    <h3 class="font-bold text-xl mb-3" data-en="Allergy-Friendly Options" data-ja="アレルギー対応オプション">Allergy-Friendly Options</h3>
+                    <p class="text-sm mb-4" data-en="We take food allergies seriously. Please inform us of any allergies when making your reservation, and our chef will prepare your meal with dedicated utensils and careful attention to cross-contamination." data-ja="食物アレルギーを真剣に受け止めています。予約時にアレルギーをお知らせいただければ、専用の調理器具を使用し、交差汚染に細心の注意を払って調理いたします。">
                         We take food allergies seriously. Please inform us of any allergies when making your reservation, and our chef will prepare your meal with dedicated utensils and careful attention to cross-contamination.
                     </p>
-                    <p class="text-xs font-bold mb-2" data-en="Common allergens we can accommodate:" data-ja="対応可能な主なアレルゲン：" data-zh="我们可应对的常见过敏原：">Common allergens we can accommodate:</p>
+                    <p class="text-xs font-bold mb-2" data-en="Common allergens we can accommodate:" data-ja="対応可能な主なアレルゲン：">Common allergens we can accommodate:</p>
                     <p class="text-xs mb-4">✓ Shellfish • ✓ Nuts • ✓ Soy • ✓ Gluten • ✓ Dairy</p>
                     <div class="bg-blue-50 p-3 rounded text-xs">
-                        📝 <strong data-en="Note:" data-ja="注意：" data-zh="注意：">Note:</strong> <span data-en="Please provide allergy details at least 24 hours before your visit to ensure proper preparation." data-ja="適切な準備のため、訪問の少なくとも24時間前にアレルギー詳細をお知らせください。" data-zh="请至少在到访前24小时提供过敏详情，以确保妥善准备。">Please provide allergy details at least 24 hours before your visit to ensure proper preparation.</span>
+                        📝 <strong data-en="Note:" data-ja="注意：">Note:</strong> <span data-en="Please provide allergy details at least 24 hours before your visit to ensure proper preparation." data-ja="適切な準備のため、訪問の少なくとも24時間前にアレルギー詳細をお知らせください。">Please provide allergy details at least 24 hours before your visit to ensure proper preparation.</span>
                     </div>
                 </div>
                 
                 <!-- Religious Dietary Requirements -->
                 <div class="card">
                     <div class="text-5xl mb-4">🕌</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="Muslim-Friendly Considerations" data-ja="ムスリムフレンドリー対応" data-zh="穆斯林友好考虑">Muslim-Friendly Considerations</h3>
-                    <p class="text-sm mb-4" data-en="While we are not a certified halal restaurant, we respect religious dietary laws and will do our best to accommodate your needs." data-ja="認証ハラールレストランではありませんが、宗教的な食事規則を尊重し、可能な限り対応いたします。" data-zh="虽然我们不是经认证的清真餐厅，但我们尊重宗教饮食法规，并将尽力满足您的需求。">
+                    <h3 class="font-bold text-xl mb-3" data-en="Muslim-Friendly Considerations" data-ja="ムスリムフレンドリー対応">Muslim-Friendly Considerations</h3>
+                    <p class="text-sm mb-4" data-en="While we are not a certified halal restaurant, we respect religious dietary laws and will do our best to accommodate your needs." data-ja="認証ハラールレストランではありませんが、宗教的な食事規則を尊重し、可能な限り対応いたします。">
                         While we are not a certified halal restaurant, we respect religious dietary laws and will do our best to accommodate your needs.
                     </p>
-                    <p class="text-xs mb-4" data-en="We can:" data-ja="対応可能なこと：" data-zh="我们可以：">We can:</p>
+                    <p class="text-xs mb-4" data-en="We can:" data-ja="対応可能なこと：">We can:</p>
                     <ul class="text-xs space-y-1 mb-4">
-                        <li>• <span data-en="Prepare meals with dedicated cookware" data-ja="専用調理器具で調理" data-zh="使用专用炊具准备餐点">Prepare meals with dedicated cookware</span></li>
-                        <li>• <span data-en="Provide ingredient lists for all dishes" data-ja="全料理の原材料リスト提供" data-zh="提供所有菜品的配料清单">Provide ingredient lists for all dishes</span></li>
-                        <li>• <span data-en="Offer alternative menu options" data-ja="代替メニューの提案" data-zh="提供替代菜单选项">Offer alternative menu options</span></li>
-                        <li>• <span data-en="Arrange consultations with our chef" data-ja="シェフとの事前相談" data-zh="安排与厨师的咨询">Arrange consultations with our chef</span></li>
+                        <li>• <span data-en="Prepare meals with dedicated cookware" data-ja="専用調理器具で調理">Prepare meals with dedicated cookware</span></li>
+                        <li>• <span data-en="Provide ingredient lists for all dishes" data-ja="全料理の原材料リスト提供">Provide ingredient lists for all dishes</span></li>
+                        <li>• <span data-en="Offer alternative menu options" data-ja="代替メニューの提案">Offer alternative menu options</span></li>
+                        <li>• <span data-en="Arrange consultations with our chef" data-ja="シェフとの事前相談">Arrange consultations with our chef</span></li>
                     </ul>
                     <div class="bg-green-50 p-3 rounded text-xs">
-                        🤝 <span data-en="We welcome discussion: Contact us when booking to discuss your specific requirements." data-ja="ご相談歓迎：予約時に具体的なご要望をお聞かせください。" data-zh="欢迎讨论：预订时联系我们讨论您的具体要求。">We welcome discussion: Contact us when booking to discuss your specific requirements.</span>
+                        🤝 <span data-en="We welcome discussion: Contact us when booking to discuss your specific requirements." data-ja="ご相談歓迎：予約時に具体的なご要望をお聞かせください。">We welcome discussion: Contact us when booking to discuss your specific requirements.</span>
                     </div>
                 </div>
                 
                 <!-- Plant-Based & Special Diets -->
                 <div class="card">
                     <div class="text-5xl mb-4">🥗</div>
-                    <h3 class="font-bold text-xl mb-3" data-en="Vegetarian & Special Diets" data-ja="ベジタリアン・特別食" data-zh="素食与特殊饮食">Vegetarian & Special Diets</h3>
-                    <p class="text-sm mb-4" data-en="While yakiniku is traditionally meat-focused, we offer options for various dietary preferences:" data-ja="焼肉は伝統的に肉中心ですが、様々な食事嗜好に対応するオプションをご用意しています：" data-zh="虽然烤肉传统上以肉类为主，但我们为各种饮食偏好提供选项：">
+                    <h3 class="font-bold text-xl mb-3" data-en="Vegetarian & Special Diets" data-ja="ベジタリアン・特別食">Vegetarian & Special Diets</h3>
+                    <p class="text-sm mb-4" data-en="While yakiniku is traditionally meat-focused, we offer options for various dietary preferences:" data-ja="焼肉は伝統的に肉中心ですが、様々な食事嗜好に対応するオプションをご用意しています：">
                         While yakiniku is traditionally meat-focused, we offer options for various dietary preferences:
                     </p>
                     <ul class="text-xs space-y-2 mb-4">
-                        <li>✓ <span data-en="Grilled vegetable platters (fresh seasonal vegetables)" data-ja="焼き野菜盛り合わせ（新鮮な旬野菜）" data-zh="烤蔬菜拼盘（新鲜时令蔬菜）">Grilled vegetable platters (fresh seasonal vegetables)</span></li>
-                        <li>✓ <span data-en="Rice dishes without animal products" data-ja="動物性食品不使用の米料理" data-zh="无动物制品的米饭菜肴">Rice dishes without animal products</span></li>
-                        <li>✓ <span data-en="Gluten-free soy sauce alternative" data-ja="グルテンフリー醤油代替品" data-zh="无麸质酱油替代品">Gluten-free soy sauce alternative</span></li>
-                        <li>✓ <span data-en="Custom vegetable-based sides" data-ja="カスタム野菜ベースサイド" data-zh="定制蔬菜配菜">Custom vegetable-based sides</span></li>
+                        <li>✓ <span data-en="Grilled vegetable platters (fresh seasonal vegetables)" data-ja="焼き野菜盛り合わせ（新鮮な旬野菜）">Grilled vegetable platters (fresh seasonal vegetables)</span></li>
+                        <li>✓ <span data-en="Rice dishes without animal products" data-ja="動物性食品不使用の米料理">Rice dishes without animal products</span></li>
+                        <li>✓ <span data-en="Gluten-free soy sauce alternative" data-ja="グルテンフリー醤油代替品">Gluten-free soy sauce alternative</span></li>
+                        <li>✓ <span data-en="Custom vegetable-based sides" data-ja="カスタム野菜ベースサイド">Custom vegetable-based sides</span></li>
                     </ul>
                     <div class="bg-purple-50 p-3 rounded text-xs">
-                        <span data-en="Let us know your requirements when booking—we'll ensure you have delicious options to enjoy." data-ja="予約時にご要望をお知らせください。美味しい選択肢をご用意いたします。" data-zh="预订时告知您的要求——我们将确保您有美味的选项可享用。">Let us know your requirements when booking—we'll ensure you have delicious options to enjoy.</span>
+                        <span data-en="Let us know your requirements when booking—we'll ensure you have delicious options to enjoy." data-ja="予約時にご要望をお知らせください。美味しい選択肢をご用意いたします。">Let us know your requirements when booking—we'll ensure you have delicious options to enjoy.</span>
                     </div>
                 </div>
             </div>
             
             <div class="mt-12 text-center">
-                <p class="text-lg mb-4">💬 <span data-en="Have specific questions about ingredients or preparation?" data-ja="食材や調理方法について具体的なご質問がありますか？" data-zh="对配料或准备有具体疑问？">Have specific questions about ingredients or preparation?</span></p>
-                <p data-en="Contact us through Instagram or our reservation form—we're here to help!" data-ja="Instagramまたはオンラインフォームでお問い合わせください。喜んでお手伝いいたします！" data-zh="通过Instagram或预订表格联系我们——我们随时为您服务！">Contact us through Instagram or our reservation form—we're here to help!</p>
+                <p class="text-lg mb-4">💬 <span data-en="Have specific questions about ingredients or preparation?" data-ja="食材や調理方法について具体的なご質問がありますか？">Have specific questions about ingredients or preparation?</span></p>
+                <p data-en="Contact us through Instagram or our reservation form—we're here to help!" data-ja="Instagramまたはオンラインフォームでお問い合わせください。喜んでお手伝いいたします！">Contact us through Instagram or our reservation form—we're here to help!</p>
                 <a href="#reservation-form" class="btn-primary mt-4">
-                    <span data-en="Contact Us Now" data-ja="今すぐお問い合わせ" data-zh="立即联系我们">Contact Us Now</span>
+                    <span data-en="Contact Us Now" data-ja="今すぐお問い合わせ">Contact Us Now</span>
                 </a>
             </div>
         </div>
@@ -543,7 +543,7 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="More Than a Meal—A Memory" data-ja="ただの食事ではなく、思い出を" data-zh="不仅是一餐——更是一段回忆">
                 More Than a Meal—A Memory
             </h2>
-            <p class="text-center text-lg mb-12" data-en="What to Expect at YAMARYU" data-ja="やま龍でのご体験" data-zh="在YAMARYU的体验">
+            <p class="text-center text-lg mb-12" data-en="What to Expect at YAMARYU" data-ja="やま龍でのご体験">
                 What to Expect at YAMARYU
             </p>
             
@@ -552,13 +552,13 @@ app.get('/', (c) => {
                 <div class="flex flex-col md:flex-row gap-8 items-center">
                     <div class="md:w-1/4 text-center">
                         <div class="text-6xl mb-4">🙏</div>
-                        <h3 class="font-bold text-xl" data-en="Your Journey Begins" data-ja="あなたの旅が始まります" data-zh="您的旅程开始">Your Journey Begins</h3>
+                        <h3 class="font-bold text-xl" data-en="Your Journey Begins" data-ja="あなたの旅が始まります">Your Journey Begins</h3>
                     </div>
                     <div class="md:w-3/4">
-                        <p data-en="From the moment you step through our door, you'll feel the difference. Our staff greets you warmly (in English!) and escorts you to your private booth-style table. The wooden interiors and soft lighting create an immediately relaxing atmosphere." data-ja="扉をくぐった瞬間から、違いを感じていただけます。スタッフが温かく（英語で！）お迎えし、個室風のお席までご案内します。木のインテリアと柔らかな照明が、すぐにリラックスできる雰囲気を作り出します。" data-zh="从您踏入我们大门的那一刻起，您就会感受到不同。我们的员工热情地（用英语！）迎接您，并护送您到包间式座位。木质内饰和柔和的灯光营造出即刻放松的氛围。">
+                        <p data-en="From the moment you step through our door, you'll feel the difference. Our staff greets you warmly (in English!) and escorts you to your private booth-style table. The wooden interiors and soft lighting create an immediately relaxing atmosphere." data-ja="扉をくぐった瞬間から、違いを感じていただけます。スタッフが温かく（英語で！）お迎えし、個室風のお席までご案内します。木のインテリアと柔らかな照明が、すぐにリラックスできる雰囲気を作り出します。">
                             From the moment you step through our door, you'll feel the difference. Our staff greets you warmly (in English!) and escorts you to your private booth-style table. The wooden interiors and soft lighting create an immediately relaxing atmosphere.
                         </p>
-                        <p class="italic mt-2 text-sm opacity-75" data-en="\"Finally, a place where we didn't feel like tourists—we felt like guests.\"" data-ja="「ようやく、観光客ではなくゲストとして扱われる場所を見つけました。」" data-zh=""终于找到一个让我们感觉不像游客——而像宾客的地方。"">
+                        <p class="italic mt-2 text-sm opacity-75" data-en="\"Finally, a place where we didn't feel like tourists—we felt like guests.\"" data-ja="「ようやく、観光客ではなくゲストとして扱われる場所を見つけました。」">
                             "Finally, a place where we didn't feel like tourists—we felt like guests."
                         </p>
                     </div>
@@ -568,13 +568,13 @@ app.get('/', (c) => {
                 <div class="flex flex-col md:flex-row gap-8 items-center">
                     <div class="md:w-1/4 text-center order-2 md:order-1">
                         <div class="text-6xl mb-4">👨‍🍳</div>
-                        <h3 class="font-bold text-xl" data-en="Expert Assistance" data-ja="専門家のサポート" data-zh="专业协助">Expert Assistance</h3>
+                        <h3 class="font-bold text-xl" data-en="Expert Assistance" data-ja="専門家のサポート">Expert Assistance</h3>
                     </div>
                     <div class="md:w-3/4 order-1 md:order-2">
-                        <p data-en="Not familiar with Japanese yakiniku? No problem. Our staff will guide you through how to grill each cut to perfection, which sauces complement which meats, the proper order to enjoy different cuts, and how to adjust the heat on your personal grill." data-ja="日本の焼肉に慣れていない？問題ありません。スタッフが、それぞれの部位を完璧に焼く方法、どの肉にどのタレが合うか、異なる部位を楽しむ順序、個人用グリルの火加減の調整方法をご案内します。" data-zh="不熟悉日式烤肉？没问题。我们的员工将指导您如何将每种部位烤至完美、哪种酱汁搭配哪种肉类、享用不同部位的正确顺序，以及如何调节个人烤架的火力。">
+                        <p data-en="Not familiar with Japanese yakiniku? No problem. Our staff will guide you through how to grill each cut to perfection, which sauces complement which meats, the proper order to enjoy different cuts, and how to adjust the heat on your personal grill." data-ja="日本の焼肉に慣れていない？問題ありません。スタッフが、それぞれの部位を完璧に焼く方法、どの肉にどのタレが合うか、異なる部位を楽しむ順序、個人用グリルの火加減の調整方法をご案内します。">
                             Not familiar with Japanese yakiniku? No problem. Our staff will guide you through how to grill each cut to perfection, which sauces complement which meats, the proper order to enjoy different cuts, and how to adjust the heat on your personal grill.
                         </p>
-                        <p class="mt-2 font-bold text-sm" data-en="You'll learn while you eat—it's part of the fun!" data-ja="食べながら学ぶ—それも楽しみの一部です！" data-zh="您将在用餐中学习——这也是乐趣的一部分！">
+                        <p class="mt-2 font-bold text-sm" data-en="You'll learn while you eat—it's part of the fun!" data-ja="食べながら学ぶ—それも楽しみの一部です！">
                             You'll learn while you eat—it's part of the fun!
                         </p>
                     </div>
@@ -584,13 +584,13 @@ app.get('/', (c) => {
                 <div class="flex flex-col md:flex-row gap-8 items-center">
                     <div class="md:w-1/4 text-center">
                         <div class="text-6xl mb-4">🥩</div>
-                        <h3 class="font-bold text-xl" data-en="Taste the Difference" data-ja="違いを味わう" data-zh="品味不同">Taste the Difference</h3>
+                        <h3 class="font-bold text-xl" data-en="Taste the Difference" data-ja="違いを味わう">Taste the Difference</h3>
                     </div>
                     <div class="md:w-3/4">
-                        <p data-en="This is where our butcher-direct advantage shines. Each bite of wagyu reveals layers of flavor—the marbling melts on your tongue, the charcoal adds a subtle smokiness, and you understand why Japanese beef is legendary worldwide." data-ja="ここで精肉卸直営の強みが輝きます。和牛の一口ごとに味わいの層が広がります。霜降りが舌の上でとろけ、炭火が微かなスモーキーさを加え、なぜ日本の牛肉が世界的に伝説となっているのかを理解できます。" data-zh="这正是我们肉铺直营优势的体现。和牛的每一口都展现出层次丰富的风味——大理石纹理在舌尖融化，炭火增添微妙的烟熏味，您会明白为何日本牛肉享誉全球。">
+                        <p data-en="This is where our butcher-direct advantage shines. Each bite of wagyu reveals layers of flavor—the marbling melts on your tongue, the charcoal adds a subtle smokiness, and you understand why Japanese beef is legendary worldwide." data-ja="ここで精肉卸直営の強みが輝きます。和牛の一口ごとに味わいの層が広がります。霜降りが舌の上でとろけ、炭火が微かなスモーキーさを加え、なぜ日本の牛肉が世界的に伝説となっているのかを理解できます。">
                             This is where our butcher-direct advantage shines. Each bite of wagyu reveals layers of flavor—the marbling melts on your tongue, the charcoal adds a subtle smokiness, and you understand why Japanese beef is legendary worldwide.
                         </p>
-                        <p class="italic mt-2 text-sm opacity-75" data-en="\"We've had wagyu before, but never like this. You can taste the quality.\"" data-ja="「和牛は以前にも食べたことがありますが、こんなのは初めて。品質が味でわかります。」" data-zh=""我们以前吃过和牛，但从未像这样。您可以品尝到品质。"">
+                        <p class="italic mt-2 text-sm opacity-75" data-en="\"We've had wagyu before, but never like this. You can taste the quality.\"" data-ja="「和牛は以前にも食べたことがありますが、こんなのは初めて。品質が味でわかります。」">
                             "We've had wagyu before, but never like this. You can taste the quality."
                         </p>
                     </div>
@@ -600,13 +600,13 @@ app.get('/', (c) => {
                 <div class="flex flex-col md:flex-row gap-8 items-center">
                     <div class="md:w-1/4 text-center order-2 md:order-1">
                         <div class="text-6xl mb-4">🍷</div>
-                        <h3 class="font-bold text-xl" data-en="Your Private Space" data-ja="プライベート空間" data-zh="您的私密空间">Your Private Space</h3>
+                        <h3 class="font-bold text-xl" data-en="Your Private Space" data-ja="プライベート空間">Your Private Space</h3>
                     </div>
                     <div class="md:w-3/4 order-1 md:order-2">
-                        <p data-en="No rush. No crowds pressing in. Just you, your companions, and exceptional food in a space that feels like it's yours alone. This is dining as it should be—relaxed, intimate, memorable." data-ja="焦る必要はありません。押し寄せる人混みもありません。あなたと仲間、そして特別な料理だけが、あなただけの空間のように感じられます。これが本来の食事のあり方—リラックスして、親密で、忘れられない。" data-zh="不必匆忙。没有拥挤的人群。只有您、您的同伴和卓越的美食，在一个仿佛专属于您的空间。这才是用餐的应有之道——放松、私密、难忘。">
+                        <p data-en="No rush. No crowds pressing in. Just you, your companions, and exceptional food in a space that feels like it's yours alone. This is dining as it should be—relaxed, intimate, memorable." data-ja="焦る必要はありません。押し寄せる人混みもありません。あなたと仲間、そして特別な料理だけが、あなただけの空間のように感じられます。これが本来の食事のあり方—リラックスして、親密で、忘れられない。">
                             No rush. No crowds pressing in. Just you, your companions, and exceptional food in a space that feels like it's yours alone. This is dining as it should be—relaxed, intimate, memorable.
                         </p>
-                        <p class="mt-2 font-bold text-sm" data-en="Take photos. Laugh together. Create memories." data-ja="写真を撮って。一緒に笑って。思い出を作りましょう。" data-zh="拍照留念。一起欢笑。创造回忆。">
+                        <p class="mt-2 font-bold text-sm" data-en="Take photos. Laugh together. Create memories." data-ja="写真を撮って。一緒に笑って。思い出を作りましょう。">
                             Take photos. Laugh together. Create memories.
                         </p>
                     </div>
@@ -621,7 +621,7 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="What Our International Guests Say" data-ja="海外からのお客様の声" data-zh="国际客人的评价">
                 What Our International Guests Say
             </h2>
-            <p class="text-center text-lg mb-12" data-en="Real Experiences from Travelers Like You" data-ja="あなたのような旅行者の本物の体験" data-zh="像您一样的旅行者的真实体验">
+            <p class="text-center text-lg mb-12" data-en="Real Experiences from Travelers Like You" data-ja="あなたのような旅行者の本物の体験">
                 Real Experiences from Travelers Like You
             </p>
             
@@ -636,7 +636,7 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!\"" data-ja="「小さな都市での食事に不安がありましたが、やま龍は期待を超えました。スタッフは完璧な英語で対応し、和牛は素晴らしく、個室ブースは快適でした。焼肉ピザは子供たちが大喜びのサプライズでした！」" data-zh=""我们对在小城市用餐感到紧张，但YAMARYU超出了所有期望。员工用完美的英语交流，和牛令人惊艳，私密包间让我们感到非常舒适。烤肉披萨是孩子们喜爱的惊喜！"">
+                    <p class="text-sm" data-en="\"We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!\"" data-ja="「小さな都市での食事に不安がありましたが、やま龍は期待を超えました。スタッフは完璧な英語で対応し、和牛は素晴らしく、個室ブースは快適でした。焼肉ピザは子供たちが大喜びのサプライズでした！」">
                         "We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!"
                     </p>
                 </div>
@@ -651,7 +651,7 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka.\"" data-ja="「ムスリムの旅行者として、彼らが私の食事要件を尊重して対応してくれたことに感謝しています。食材について丁寧に説明し、心を込めて調理してくれました。和牛の品質は群を抜いています—大阪で食べた中で間違いなく最高の食事でした。」" data-zh=""作为穆斯林旅行者，我感激他们尊重并满足了我的饮食要求。他们花时间解释配料并精心准备我的餐点。和牛品质卓越——绝对是我们在大阪吃过的最好的一餐。"">
+                    <p class="text-sm" data-en="\"As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka.\"" data-ja="「ムスリムの旅行者として、彼らが私の食事要件を尊重して対応してくれたことに感謝しています。食材について丁寧に説明し、心を込めて調理してくれました。和牛の品質は群を抜いています—大阪で食べた中で間違いなく最高の食事でした。」">
                         "As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka."
                     </p>
                 </div>
@@ -666,7 +666,7 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest.\"" data-ja="「Instagramでの予約はとても簡単で、返信もほぼ即座でした。親密な雰囲気は記念日ディナーに完璧でした。ここは家族経営で、一人ひとりのゲストを本当に大切にしていることがわかります。」" data-zh=""通过Instagram预订非常简单，回复几乎是即时的。私密的氛围非常适合我们的纪念日晚餐。您可以看出这是一家家族企业，真正关心每一位客人。"">
+                    <p class="text-sm" data-en="\"Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest.\"" data-ja="「Instagramでの予約はとても簡単で、返信もほぼ即座でした。親密な雰囲気は記念日ディナーに完璧でした。ここは家族経営で、一人ひとりのゲストを本当に大切にしていることがわかります。」">
                         "Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest."
                     </p>
                 </div>
@@ -681,7 +681,7 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too.\"" data-ja="「イタリア人なので『焼肉ピザ』には懐疑的でしたが、驚きました—石窯技術は本物で、和牛トッピングは天才的。ピザに厳しい私も感動しました。伝統的な和牛カットも驚異的でした。」" data-zh=""我是意大利人，所以对烤肉披萨持怀疑态度，但哇——石窑技术是真实的，和牛配料简直是天才。即使作为披萨行家，我也印象深刻。传统的和牛切块也非常出色。"">
+                    <p class="text-sm" data-en="\"I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too.\"" data-ja="「イタリア人なので『焼肉ピザ』には懐疑的でしたが、驚きました—石窯技術は本物で、和牛トッピングは天才的。ピザに厳しい私も感動しました。伝統的な和牛カットも驚異的でした。」">
                         "I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too."
                     </p>
                 </div>
@@ -696,7 +696,7 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem.\"" data-ja="「近くに宿泊していて、この店に賭けてみました。旅行中最高の決断でした！肉の品質はレストラン供給レベル（実際に卸業者だから！）で、価格は信じられないほど良心的。この隠れた名店を見逃さないでください。」" data-zh=""我们住在附近，决定尝试这家店。这是我们旅行中最好的决定！肉的质量是餐厅供应级别（因为他们确实是供应商！），价格非常合理。不要错过这个隐藏的宝石。"">
+                    <p class="text-sm" data-en="\"We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem.\"" data-ja="「近くに宿泊していて、この店に賭けてみました。旅行中最高の決断でした！肉の品質はレストラン供給レベル（実際に卸業者だから！）で、価格は信じられないほど良心的。この隠れた名店を見逃さないでください。」">
                         "We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem."
                     </p>
                 </div>
@@ -710,33 +710,33 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="Make Your Reservation" data-ja="予約する" data-zh="进行预订">
                 Make Your Reservation
             </h2>
-            <p class="text-center text-lg mb-12" data-en="Fill out this form and we'll confirm your booking within 24 hours" data-ja="このフォームに記入してください。24時間以内に予約を確認します" data-zh="填写此表格，我们将在24小时内确认您的预订">
+            <p class="text-center text-lg mb-12" data-en="Fill out this form and we'll confirm your booking within 24 hours" data-ja="このフォームに記入してください。24時間以内に予約を確認します">
                 Fill out this form and we'll confirm your booking within 24 hours
             </p>
             
             <form id="reservationForm" class="card bg-gray-50">
                 <div class="mb-6">
-                    <label class="block font-bold mb-2" data-en="Name *" data-ja="お名前 *" data-zh="姓名 *">Name *</label>
+                    <label class="block font-bold mb-2" data-en="Name *" data-ja="お名前 *">Name *</label>
                     <input type="text" name="name" required class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="John Smith">
                 </div>
                 
                 <div class="mb-6">
-                    <label class="block font-bold mb-2" data-en="Email *" data-ja="メールアドレス *" data-zh="电子邮箱 *">Email *</label>
+                    <label class="block font-bold mb-2" data-en="Email *" data-ja="メールアドレス *">Email *</label>
                     <input type="email" name="email" required class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="john@example.com">
                 </div>
                 
                 <div class="mb-6">
-                    <label class="block font-bold mb-2" data-en="Phone Number (with country code) *" data-ja="電話番号（国番号付き） *" data-zh="电话号码（含国家代码）*">Phone Number (with country code) *</label>
+                    <label class="block font-bold mb-2" data-en="Phone Number (with country code) *" data-ja="電話番号（国番号付き） *">Phone Number (with country code) *</label>
                     <input type="tel" name="phone" required class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="+1 555 123 4567">
                 </div>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
-                        <label class="block font-bold mb-2" data-en="Preferred Date *" data-ja="希望日 *" data-zh="首选日期 *">Preferred Date *</label>
+                        <label class="block font-bold mb-2" data-en="Preferred Date *" data-ja="希望日 *">Preferred Date *</label>
                         <input type="date" name="date" required class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
                     </div>
                     <div>
-                        <label class="block font-bold mb-2" data-en="Preferred Time *" data-ja="希望時刻 *" data-zh="首选时间 *">Preferred Time *</label>
+                        <label class="block font-bold mb-2" data-en="Preferred Time *" data-ja="希望時刻 *">Preferred Time *</label>
                         <select name="time" required class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
                             <option value="">Select time / 時間を選択</option>
                             <option value="11:00">11:00</option>
@@ -758,7 +758,7 @@ app.get('/', (c) => {
                 </div>
                 
                 <div class="mb-6">
-                    <label class="block font-bold mb-2" data-en="Number of Guests *" data-ja="人数 *" data-zh="客人人数 *">Number of Guests *</label>
+                    <label class="block font-bold mb-2" data-en="Number of Guests *" data-ja="人数 *">Number of Guests *</label>
                     <select name="guests" required class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500">
                         <option value="">Select / 選択</option>
                         <option value="1">1 person / 1名</option>
@@ -772,29 +772,29 @@ app.get('/', (c) => {
                 </div>
                 
                 <div class="mb-6">
-                    <label class="block font-bold mb-2" data-en="Dietary Restrictions or Allergies" data-ja="食事制限やアレルギー" data-zh="饮食限制或过敏">Dietary Restrictions or Allergies</label>
+                    <label class="block font-bold mb-2" data-en="Dietary Restrictions or Allergies" data-ja="食事制限やアレルギー">Dietary Restrictions or Allergies</label>
                     <textarea name="dietary" rows="3" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Please let us know about any allergies, halal requirements, vegetarian preferences, etc."></textarea>
                 </div>
                 
                 <div class="mb-6">
-                    <label class="block font-bold mb-2" data-en="Special Requests or Questions" data-ja="特別なリクエストや質問" data-zh="特殊要求或问题">Special Requests or Questions</label>
+                    <label class="block font-bold mb-2" data-en="Special Requests or Questions" data-ja="特別なリクエストや質問">Special Requests or Questions</label>
                     <textarea name="requests" rows="3" class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Anniversary celebration, seating preferences, menu questions, etc."></textarea>
                 </div>
                 
                 <button type="submit" class="btn-primary w-full text-center text-lg py-4">
                     <i class="fas fa-paper-plane mr-2"></i>
-                    <span data-en="Submit Reservation Request" data-ja="予約リクエストを送信" data-zh="提交预订请求">Submit Reservation Request</span>
+                    <span data-en="Submit Reservation Request" data-ja="予約リクエストを送信">Submit Reservation Request</span>
                 </button>
                 
-                <p class="text-sm text-center mt-4 opacity-75" data-en="We'll respond to your request within 24 hours. Peak times may require flexibility with timing." data-ja="24時間以内にリクエストに返信します。混雑時は時間に柔軟性が必要な場合があります。" data-zh="我们将在24小时内回复您的请求。高峰时段可能需要时间灵活性。">
+                <p class="text-sm text-center mt-4 opacity-75" data-en="We'll respond to your request within 24 hours. Peak times may require flexibility with timing." data-ja="24時間以内にリクエストに返信します。混雑時は時間に柔軟性が必要な場合があります。">
                     We'll respond to your request within 24 hours. Peak times may require flexibility with timing.
                 </p>
             </form>
             
             <div id="form-success" class="hidden mt-8 p-6 bg-green-50 border-2 border-green-500 rounded-lg text-center">
                 <div class="text-5xl mb-4">✅</div>
-                <h3 class="text-2xl font-bold mb-2 text-green-700" data-en="Reservation Request Received!" data-ja="予約リクエストを受け付けました！" data-zh="预订请求已收到！">Reservation Request Received!</h3>
-                <p data-en="Thank you! We'll confirm your reservation within 24 hours. Check your email for our response." data-ja="ありがとうございます！24時間以内に予約を確認します。返信メールをご確認ください。" data-zh="谢谢！我们将在24小时内确认您的预订。请查看您的电子邮件以获取我们的回复。">Thank you! We'll confirm your reservation within 24 hours. Check your email for our response.</p>
+                <h3 class="text-2xl font-bold mb-2 text-green-700" data-en="Reservation Request Received!" data-ja="予約リクエストを受け付けました！">Reservation Request Received!</h3>
+                <p data-en="Thank you! We'll confirm your reservation within 24 hours. Check your email for our response." data-ja="ありがとうございます！24時間以内に予約を確認します。返信メールをご確認ください。">Thank you! We'll confirm your reservation within 24 hours. Check your email for our response.</p>
             </div>
         </div>
     </section>
@@ -805,7 +805,7 @@ app.get('/', (c) => {
             <h2 class="text-center section-title" data-en="Find Us in Izumi City" data-ja="和泉市でお会いしましょう" data-zh="在和泉市找到我们">
                 Find Us in Izumi City
             </h2>
-            <p class="text-center text-lg mb-12" data-en="Easy Access from Central Osaka" data-ja="大阪中心部からアクセス良好" data-zh="从大阪市中心轻松到达">
+            <p class="text-center text-lg mb-12" data-en="Easy Access from Central Osaka" data-ja="大阪中心部からアクセス良好">
                 Easy Access from Central Osaka
             </p>
             
@@ -817,7 +817,7 @@ app.get('/', (c) => {
                     </div>
                     
                     <div class="mb-6">
-                        <h3 class="font-bold text-xl mb-3 flex items-center"><i class="fas fa-map-marker-alt mr-2 text-red-600"></i><span data-en="Address" data-ja="住所" data-zh="地址">Address</span></h3>
+                        <h3 class="font-bold text-xl mb-3 flex items-center"><i class="fas fa-map-marker-alt mr-2 text-red-600"></i><span data-en="Address" data-ja="住所">Address</span></h3>
                         <p class="mb-2">📍 2F Ichikura Building</p>
                         <p class="mb-2">1-2-41 Nozomino, Izumi City</p>
                         <p class="mb-2">Osaka 594-1105, Japan</p>
@@ -841,7 +841,7 @@ app.get('/', (c) => {
                 <!-- Practical Information -->
                 <div>
                     <div class="card mb-6">
-                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-clock mr-2 text-yellow-600"></i><span data-en="Business Hours" data-ja="営業時間" data-zh="营业时间">Business Hours</span></h3>
+                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-clock mr-2 text-yellow-600"></i><span data-en="Business Hours" data-ja="営業時間">Business Hours</span></h3>
                         
                         <div class="mb-4">
                             <p class="font-bold mb-1">🍱 <span data-en="LUNCH" data-ja="ランチ">LUNCH</span></p>
