@@ -175,7 +175,7 @@ app.get('/', (c) => {
     </div>
 
     <!-- Hero Section -->
-    <section class="relative h-screen flex items-center justify-center text-white" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1558030006-450675393462?w=1600') center/cover;">
+    <section class="relative h-screen flex items-center justify-center text-white" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/images/hero-main.jpg') center/cover;">
         <div class="text-center px-4 max-w-4xl mx-auto">
             <h1 class="font-display text-5xl md:text-7xl mb-6" data-en="Experience Osaka's Finest Wagyu" data-ja="大阪最高級の和牛体験" data-zh="体验大阪顶级和牛">
                 Experience Osaka's Finest Wagyu
