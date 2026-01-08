@@ -347,7 +347,7 @@ app.get('/', (c) => {
             <div class="mb-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <img src="https://images.unsplash.com/photo-1588347818036-4a5e611f0a46?w=800" alt="Wagyu Set" class="rounded-lg shadow-lg w-full">
+                        <img src="/images/menu-wagyu-joshen-set.jpg" alt="Wagyu Set" class="rounded-lg shadow-lg w-full">
                     </div>
                     <div>
                         <div class="inline-block bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-bold mb-4">
