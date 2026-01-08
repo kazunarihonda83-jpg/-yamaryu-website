@@ -438,7 +438,7 @@ app.get('/', (c) => {
             <!-- Other Menu Highlights -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400" alt="Aged Skirt Steak" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <img src="/images/menu-aged-harami.jpg" alt="Aged Skirt Steak" class="rounded-lg mb-4 w-full h-48 object-cover">
                     <h4 class="font-bold text-xl mb-2" data-en="Aged Premium Skirt Steak" data-ja="熟成上はらみ" data-zh="熟成特选横膈膜" data-zh="熟成特选横膈膜（熟成上はらみ）" data-zh="熟成特选横膈膜">Aged Premium Skirt Steak</h4>
                     <p class="text-sm" data-en="Our signature aged cut—tender, flavorful, unforgettable" data-ja="当店自慢の熟成肉—柔らか、風味豊か、忘れられない" data-zh="我们的招牌熟成肉——柔嫩、风味浓郁、难以忘怀" data-zh="我们的招牌熟成肉——柔嫩、风味浓郁、难以忘怀">Our signature aged cut—tender, flavorful, unforgettable</p>
                 </div>
