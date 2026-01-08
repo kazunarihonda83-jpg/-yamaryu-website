@@ -399,7 +399,7 @@ app.get('/', (c) => {
                         </p>
                     </div>
                     <div class="order-1 md:order-2">
-                        <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=800" alt="Premium Tongue" class="rounded-lg shadow-lg w-full">
+                        <img src="/images/menu-thick-tongue.jpg" alt="Premium Tongue" class="rounded-lg shadow-lg w-full">
                     </div>
                 </div>
             </div>
