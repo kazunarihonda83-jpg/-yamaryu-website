@@ -448,7 +448,7 @@ app.get('/', (c) => {
                     <p class="text-sm" data-en="Lightly seared wagyu served carpaccio-style" data-ja="軽く炙った和牛をカルパッチョ風で" data-zh="轻炙和牛，卡帕乔式呈现" data-zh="轻炙和牛，卡帕乔式呈现">Lightly seared wagyu served carpaccio-style</p>
                 </div>
                 <div class="card">
-                    <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400" alt="Desserts" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <img src="/images/menu-dessert.jpg" alt="Desserts" class="rounded-lg mb-4 w-full h-48 object-cover">
                     <h4 class="font-bold text-xl mb-2" data-en="Homemade Desserts" data-ja="自家製デザート" data-zh="自制甜点" data-zh="自制甜点">Homemade Desserts</h4>
                     <p class="text-sm" data-en="Sweet endings made in-house daily" data-ja="毎日店内で手作りする甘いフィニッシュ" data-zh="每日店内手工制作的甜蜜结尾" data-zh="每日店内手工制作的甜蜜结尾">Sweet endings made in-house daily</p>
                 </div>
