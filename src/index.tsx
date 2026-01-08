@@ -408,7 +408,7 @@ app.get('/', (c) => {
             <div class="mb-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800" alt="Yakiniku Pizza" class="rounded-lg shadow-lg w-full">
+                        <img src="/images/menu-yakiniku-pizza.jpg" alt="Yakiniku Pizza" class="rounded-lg shadow-lg w-full">
                     </div>
                     <div>
                         <div class="inline-block bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-4">
