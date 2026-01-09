@@ -636,8 +636,8 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!\"" data-ja="「小さな都市での食事に不安がありましたが、やま龍は期待を超えました。スタッフは完璧な英語で対応し、和牛は素晴らしく、個室ブースは快適でした。焼肉ピザは子供たちが大喜びのサプライズでした！」" data-zh="我们对在小城市用餐感到紧张，但YAMARYU超出了所有期望。员工用完美的英语交流，和牛令人惊艳，私密包间让我们感到非常舒适。烤肉披萨是孩子们喜爱的惊喜！">
-                        "We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!"
+                    <p class="text-sm review-text" data-en="We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!" data-ja="小さな都市での食事に不安がありましたが、やま龍は期待を超えました。スタッフは完璧な英語で対応し、和牛は素晴らしく、個室ブースは快適でした。焼肉ピザは子供たちが大喜びのサプライズでした！" data-zh="我们对在小城市用餐感到紧张，但YAMARYU超出了所有期望。员工用完美的英语交流，和牛令人惊艳，私密包间让我们感到非常舒适。烤肉披萨是孩子们喜爱的惊喜！">
+                        We were nervous about dining in a smaller city, but YAMARYU exceeded all expectations. The staff communicated perfectly in English, the wagyu was incredible, and the private booth made us feel so comfortable. The yakiniku pizza was a fun surprise our kids loved!
                     </p>
                 </div>
                 
@@ -651,8 +651,8 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka.\"" data-ja="「ムスリムの旅行者として、彼らが私の食事要件を尊重して対応してくれたことに感謝しています。食材について丁寧に説明し、心を込めて調理してくれました。和牛の品質は群を抜いています—大阪で食べた中で間違いなく最高の食事でした。」"作为穆斯林旅行者，我很感激他们尊重地处理我的饮食要求。他们花时间解释配料并用心准备我的餐点。和牛品质出色——绝对是我们在大阪吃过的最好的一餐。""作为穆斯林旅行者，我感激他们尊重并满足了我的饮食要求。他们花时间解释配料并精心准备我的餐点。和牛品质卓越——绝对是我们在大阪吃过的最好的一餐。"" data-zh="">
-                        "As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka."
+                    <p class="text-sm review-text" data-en="As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka." data-ja="ムスリムの旅行者として、彼らが私の食事要件を尊重して対応してくれたことに感謝しています。食材について丁寧に説明し、心を込めて調理してくれました。和牛の品質は群を抜いています—大阪で食べた中で間違いなく最高の食事でした。" data-zh="作为穆斯林旅行者，我感激他们尊重并满足了我的饮食要求。他们花时间解释配料并精心准备我的餐点。和牛品质卓越——绝对是我们在大阪吃过的最好的一餐。">
+                        As a Muslim traveler, I appreciated how respectfully they handled my dietary requirements. They took time to explain ingredients and prepared my meal with care. The wagyu quality is outstanding—definitely the best meal we had in Osaka.
                     </p>
                 </div>
                 
@@ -666,8 +666,8 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest.\"" data-ja="「Instagramでの予約はとても簡単で、返信もほぼ即座でした。親密な雰囲気は記念日ディナーに完璧でした。ここは家族経営で、一人ひとりのゲストを本当に大切にしていることがわかります。」"通过Instagram预订非常简单，回复几乎是即时的。亲密的氛围非常适合我们的周年纪念晚餐。你可以看出这是一家家庭经营的餐厅，真正关心每一位客人。""通过Instagram预订非常简单，回复几乎是即时的。私密的氛围非常适合我们的纪念日晚餐。您可以看出这是一家家族企业，真正关心每一位客人。"" data-zh="">
-                        "Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest."
+                    <p class="text-sm review-text" data-en="Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest." data-ja="Instagramでの予約はとても簡単で、返信もほぼ即座でした。親密な雰囲気は記念日ディナーに完璧でした。ここは家族経営で、一人ひとりのゲストを本当に大切にしていることがわかります。" data-zh="通过Instagram预订非常简单，回复几乎是即时的。私密的氛围非常适合我们的纪念日晚餐。您可以看出这是一家家族企业，真正关心每一位客人。">
+                        Booking through Instagram was so easy, and the response was almost immediate. The intimate setting was perfect for our anniversary dinner. You can tell this is a family-run place that truly cares about each guest.
                     </p>
                 </div>
                 
@@ -681,8 +681,8 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too.\"" data-ja="「イタリア人なので『焼肉ピザ』には懐疑的でしたが、驚きました—石窯技術は本物で、和牛トッピングは天才的。ピザに厳しい私も感動しました。伝統的な和牛カットも驚異的でした。」" data-zh=""我是意大利人，所以对烤肉披萨持怀疑态度，但哇——石窑技术是真实的，和牛配料简直是天才。即使作为披萨行家，我也印象深刻。传统的和牛切块也非常出色。"">
-                        "I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too."
+                    <p class="text-sm review-text" data-en="I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too." data-ja="イタリア人なので『焼肉ピザ』には懐疑的でしたが、驚きました—石窯技術は本物で、和牛トッピングは天才的。ピザに厳しい私も感動しました。伝統的な和牛カットも驚異的でした。" data-zh="我是意大利人，所以对烤肉披萨持怀疑态度，但哇——石窑技术是真实的，和牛配料简直是天才。即使作为披萨行家，我也印象深刻。传统的和牛切块也非常出色。">
+                        I'm Italian, so I was skeptical about their 'yakiniku pizza,' but wow—the stone oven technique is authentic, and the wagyu topping is genius. Even as a pizza snob, I was impressed. The traditional wagyu cuts were phenomenal too.
                     </p>
                 </div>
                 
@@ -696,8 +696,8 @@ app.get('/', (c) => {
                         </div>
                     </div>
                     <div class="text-yellow-400 mb-3">⭐⭐⭐⭐⭐</div>
-                    <p class="text-sm" data-en="\"We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem.\"" data-ja="「近くに宿泊していて、この店に賭けてみました。旅行中最高の決断でした！肉の品質はレストラン供給レベル（実際に卸業者だから！）で、価格は信じられないほど良心的。この隠れた名店を見逃さないでください。」" data-zh=""我们住在附近，决定尝试这家店。这是我们旅行中最好的决定！肉的质量是餐厅供应级别（因为他们确实是供应商！），价格非常合理。不要错过这个隐藏的宝石。"">
-                        "We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem."
+                    <p class="text-sm review-text" data-en="We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem." data-ja="近くに宿泊していて、この店に賭けてみました。旅行中最高の決断でした！肉の品質はレストラン供給レベル（実際に卸業者だから！）で、価格は信じられないほど良心的。この隠れた名店を見逃さないでください。" data-zh="我们住在附近，决定尝试这家店。这是我们旅行中最好的决定！肉的质量是餐厅供应级别（因为他们确实是供应商！），价格非常合理。不要错过这个隐藏的宝石。">
+                        We stayed nearby and took a chance on this place. Best decision of our trip! The meat quality is restaurant-supply level (because it IS restaurant supply!), and the prices are incredibly fair. Don't miss this hidden gem.
                     </p>
                 </div>
             </div>
