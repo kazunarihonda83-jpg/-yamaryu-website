@@ -2,5 +2,22 @@
   "buildCommand": "echo 'Using pre-built files'",
   "outputDirectory": ".",
   "installCommand": "echo 'No installation needed'",
-  "framework": null
+  "framework": null,
+  "rewrites": [
+    {
+      "source": "/images/(.*)",
+      "destination": "/public/images/$1"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
 }

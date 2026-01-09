@@ -1,0 +1,5 @@
+# Don't ignore public directory
+!public
+!public/images
+!public/images/*.jpg
+!public/images/*.png
