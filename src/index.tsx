@@ -347,7 +347,7 @@ app.get('/', (c) => {
             <div class="mb-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <img src="/images/menu-wagyu-joshen-set.jpg" alt="Wagyu Set" class="rounded-lg shadow-lg w-full">
+                        <img src="/images/menu-wagyu-joshen-set.jpg" alt="Wagyu Set" data-alt-en="YAMARYU Premium Wagyu Set" data-alt-ja="やま龍 上撰セット" data-alt-zh="YAMARYU特选和牛套餐" class="rounded-lg shadow-lg w-full">
                     </div>
                     <div>
                         <div class="inline-block bg-yellow-400 text-black px-3 py-1 rounded-full text-sm font-bold mb-4">
@@ -399,7 +399,7 @@ app.get('/', (c) => {
                         </p>
                     </div>
                     <div class="order-1 md:order-2">
-                        <img src="/images/menu-thick-tongue.jpg" alt="Premium Tongue" class="rounded-lg shadow-lg w-full">
+                        <img src="/images/menu-thick-tongue.jpg" alt="Premium Tongue" data-alt-en="Extra-Thick Cut Premium Tongue" data-alt-ja="特選厚切りタン" data-alt-zh="特厚切特选牛舌" class="rounded-lg shadow-lg w-full">
                     </div>
                 </div>
             </div>
@@ -408,7 +408,7 @@ app.get('/', (c) => {
             <div class="mb-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div>
-                        <img src="/images/menu-yakiniku-pizza.jpg" alt="Yakiniku Pizza" class="rounded-lg shadow-lg w-full">
+                        <img src="/images/menu-yakiniku-pizza.jpg" alt="Yakiniku Pizza" data-alt-en="Stone-Baked Yakiniku Pizza Bianco" data-alt-ja="焼肉ピザ ビアンコ" data-alt-zh="石烤烤肉白披萨" class="rounded-lg shadow-lg w-full">
                     </div>
                     <div>
                         <div class="inline-block bg-green-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-4">
@@ -438,17 +438,17 @@ app.get('/', (c) => {
             <!-- Other Menu Highlights -->
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
                 <div class="card">
-                    <img src="/images/menu-aged-harami.jpg" alt="Aged Skirt Steak" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <img src="/images/menu-aged-harami.jpg" alt="Aged Skirt Steak" data-alt-en="Aged Premium Skirt Steak" data-alt-ja="熟成上はらみ" data-alt-zh="熟成特选横膈膜" class="rounded-lg mb-4 w-full h-48 object-cover">
                     <h4 class="font-bold text-xl mb-2" data-en="Aged Premium Skirt Steak" data-ja="熟成上はらみ" data-zh="熟成特选横膈膜">Aged Premium Skirt Steak</h4>
                     <p class="text-sm" data-en="Our signature aged cut—tender, flavorful, unforgettable" data-ja="当店自慢の熟成肉—柔らか、風味豊か、忘れられない" data-zh="我们的招牌熟成肉——柔嫩、风味浓郁、难以忘怀">Our signature aged cut—tender, flavorful, unforgettable</p>
                 </div>
                 <div class="card">
-                    <img src="/images/menu-wagyu-tataki.jpg" alt="Wagyu Tataki" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <img src="/images/menu-wagyu-tataki.jpg" alt="Wagyu Tataki" data-alt-en="Wagyu Red Meat Tataki" data-alt-ja="和牛赤身の炙り" data-alt-zh="和牛赤身炙烤" class="rounded-lg mb-4 w-full h-48 object-cover">
                     <h4 class="font-bold text-xl mb-2" data-en="Wagyu Red Meat Tataki" data-ja="和牛赤身の炙り" data-zh="和牛赤身炙烤">Wagyu Red Meat Tataki</h4>
                     <p class="text-sm" data-en="Lightly seared wagyu served carpaccio-style" data-ja="軽く炙った和牛をカルパッチョ風で" data-zh="轻炙和牛，卡帕乔式呈现">Lightly seared wagyu served carpaccio-style</p>
                 </div>
                 <div class="card">
-                    <img src="/images/menu-dessert.jpg" alt="Desserts" class="rounded-lg mb-4 w-full h-48 object-cover">
+                    <img src="/images/menu-dessert.jpg" alt="Desserts" data-alt-en="Homemade Desserts" data-alt-ja="自家製デザート" data-alt-zh="自制甜点" class="rounded-lg mb-4 w-full h-48 object-cover">
                     <h4 class="font-bold text-xl mb-2" data-en="Homemade Desserts" data-ja="自家製デザート" data-zh="自制甜点">Homemade Desserts</h4>
                     <p class="text-sm" data-en="Sweet endings made in-house daily" data-ja="毎日店内で手作りする甘いフィニッシュ" data-zh="每日店内手工制作的甜蜜结尾">Sweet endings made in-house daily</p>
                 </div>
@@ -973,6 +973,23 @@ app.get('/', (c) => {
                         el.innerHTML = jaText;
                     } else if (currentLang === 'zh') {
                         el.innerHTML = zhText;
+                    }
+                }
+            });
+            
+            // Update image alt attributes
+            document.querySelectorAll('img[data-alt-en]').forEach(img => {
+                const altEn = img.getAttribute('data-alt-en');
+                const altJa = img.getAttribute('data-alt-ja');
+                const altZh = img.getAttribute('data-alt-zh');
+                
+                if (altEn && altJa && altZh) {
+                    if (currentLang === 'en') {
+                        img.alt = altEn;
+                    } else if (currentLang === 'ja') {
+                        img.alt = altJa;
+                    } else if (currentLang === 'zh') {
+                        img.alt = altZh;
                     }
                 }
             });
