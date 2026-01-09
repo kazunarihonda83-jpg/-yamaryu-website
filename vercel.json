@@ -1,12 +1,6 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "installCommand": "npm install",
-  "framework": null,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/_worker.js"
-    }
-  ]
+  "buildCommand": "echo 'Using pre-built files'",
+  "outputDirectory": ".",
+  "installCommand": "echo 'No installation needed'",
+  "framework": null
 }
