@@ -896,34 +896,34 @@ app.get('/', (c) => {
     <section class="py-16 bg-gradient-to-br from-red-900 via-red-800 to-black text-white relative overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1558030006-450675393462?w=1600'); background-size: cover; background-position: center;">
         <div class="absolute inset-0 bg-black bg-opacity-70"></div>
         <div class="relative max-w-4xl mx-auto px-4 text-center">
-            <h2 class="font-display text-5xl mb-6" data-en="Your Osaka Wagyu Experience Awaits" data-ja="大阪和牛体験があなたを待っています" data-zh="您的大阪和牛体验正在等待">
+            <h2 class="font-display text-5xl mb-6" data-en="Your Osaka Wagyu Experience Awaits" data-ja="大阪和牛体験があなたを待っています" data-zh="您的大阪和牛体验等着您">
                 Your Osaka Wagyu Experience Awaits
             </h2>
-            <p class="text-xl mb-8 opacity-90" data-en="Join travelers from around the world who've discovered Izumi City's best-kept secret. From our butcher shop to your plate—this is wagyu as it's meant to be." data-ja="世界中の旅行者が発見した、和泉市の秘宝に参加しましょう。精肉店からあなたのお皿へ—これが本来の和牛です。">
+            <p class="text-xl mb-8 opacity-90" data-en="Join travelers from around the world who've discovered Izumi City's best-kept secret. From our butcher shop to your plate—this is wagyu as it's meant to be." data-ja="世界中の旅行者が発見した、和泉市の秘宝に参加しましょう。精肉店からあなたのお皿へ—これが本来の和牛です。" data-zh="加入来自世界各地发现和泉市最佳秘密的旅行者行列。从我们的肉店到您的餐盘——这就是和牛该有的样子。">
                 Join travelers from around the world who've discovered Izumi City's best-kept secret. From our butcher shop to your plate—this is wagyu as it's meant to be.
             </p>
             
             <div class="flex flex-col md:flex-row gap-6 justify-center mb-8">
                 <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="btn-primary btn-instagram text-xl py-4 px-8">
                     <i class="fab fa-instagram mr-2"></i>
-                    <span data-en="Reserve via Instagram" data-ja="Instagramで予約">Reserve via Instagram</span>
+                    <span data-en="Reserve via Instagram" data-ja="Instagramで予約" data-zh="通过Instagram预订">Reserve via Instagram</span>
                 </a>
                 <a href="#reservation-form" class="btn-primary text-xl py-4 px-8">
                     <i class="fas fa-calendar-alt mr-2"></i>
-                    <span data-en="English Reservation Form" data-ja="予約フォーム">English Reservation Form</span>
+                    <span data-en="English Reservation Form" data-ja="予約フォーム" data-zh="预订表格">English Reservation Form</span>
                 </a>
             </div>
             
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm mb-8">
-                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="English reservations welcome" data-ja="英語予約歓迎">English reservations welcome</span></div>
-                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="Dietary restrictions accommodated" data-ja="食事制限対応">Dietary restrictions accommodated</span></div>
-                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="Family-friendly & couple-friendly" data-ja="ファミリー&カップル歓迎">Family-friendly & couple-friendly</span></div>
-                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="Small, caring team" data-ja="心温まる少人数チーム">Small, caring team</span></div>
+                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="English reservations welcome" data-ja="英語予約歓迎" data-zh="欢迎英语预订">English reservations welcome</span></div>
+                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="Dietary restrictions accommodated" data-ja="食事制限対応" data-zh="可满足饮食限制">Dietary restrictions accommodated</span></div>
+                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="Family-friendly & couple-friendly" data-ja="ファミリー&カップル歓迎" data-zh="适合家庭和情侣">Family-friendly & couple-friendly</span></div>
+                <div class="flex items-center justify-center"><i class="fas fa-check-circle mr-2"></i><span data-en="Small, caring team" data-ja="心温まる少人数チーム" data-zh="贴心的小团队">Small, caring team</span></div>
             </div>
             
             <div class="border-t border-white border-opacity-30 pt-8">
                 <p class="text-lg mb-2">📍 <strong>YAKINIKU BAR YAMARYU</strong> | 焼肉ばーる やま龍</p>
-                <p class="opacity-75">Izumi City, Osaka</p>
+                <p class="opacity-75" data-en="Izumi City, Osaka" data-ja="大阪府和泉市" data-zh="大阪府和泉市">Izumi City, Osaka</p>
             </div>
         </div>
     </section>
@@ -934,8 +934,8 @@ app.get('/', (c) => {
             <div class="flex flex-wrap justify-center gap-6 mb-6">
                 <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="hover:text-yellow-400 transition">Instagram</a>
                 <a href="https://www.hotpepper.jp/strJ001263382/" target="_blank" class="hover:text-yellow-400 transition">Hotpepper Page</a>
-                <a href="#reservation-form" class="hover:text-yellow-400 transition" data-en="Reservation Form" data-ja="予約フォーム">Reservation Form</a>
-                <a href="#" class="hover:text-yellow-400 transition" data-en="Allergy Information" data-ja="アレルギー情報">Allergy Information</a>
+                <a href="#reservation-form" class="hover:text-yellow-400 transition" data-en="Reservation Form" data-ja="予約フォーム" data-zh="预订表格">Reservation Form</a>
+                <a href="#" class="hover:text-yellow-400 transition" data-en="Allergy Information" data-ja="アレルギー情報" data-zh="过敏信息">Allergy Information</a>
             </div>
             <p class="text-sm opacity-75">© 2024 YAKINIKU BAR YAMARYU. All rights reserved.</p>
         </div>
