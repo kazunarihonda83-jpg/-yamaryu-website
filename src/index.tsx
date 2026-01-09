@@ -818,23 +818,23 @@ app.get('/', (c) => {
                     
                     <div class="mb-6">
                         <h3 class="font-bold text-xl mb-3 flex items-center"><i class="fas fa-map-marker-alt mr-2 text-red-600"></i><span data-en="Address" data-ja="住所" data-zh="地址">Address</span></h3>
-                        <p class="mb-2">📍 2F Ichikura Building</p>
-                        <p class="mb-2">1-2-41 Nozomino, Izumi City</p>
-                        <p class="mb-2">Osaka 594-1105, Japan</p>
+                        <p class="mb-2" data-en="📍 2F Ichikura Building" data-ja="📍 イチクラビル 2階" data-zh="📍 Ichikura 大楼 2 楼">📍 2F Ichikura Building</p>
+                        <p class="mb-2" data-en="1-2-41 Nozomino, Izumi City" data-ja="のぞみ野1-2-41、和泉市" data-zh="和泉市 Nozomino 1-2-41">1-2-41 Nozomino, Izumi City</p>
+                        <p class="mb-2" data-en="Osaka 594-1105, Japan" data-ja="大阪府 594-1105、日本" data-zh="日本大阪府 594-1105">Osaka 594-1105, Japan</p>
                         <p class="text-sm opacity-75">〒594-1105 大阪府和泉市のぞみ野1-2-41 イチクラビル 2階</p>
                     </div>
                     
                     <div class="mb-6">
-                        <h3 class="font-bold text-xl mb-3 flex items-center"><i class="fas fa-train mr-2 text-blue-600"></i><span data-en="Access" data-ja="アクセス">Access</span></h3>
-                        <p class="mb-2"><strong>🚇 <span data-en="From Izumi-chuo Station" data-ja="和泉中央駅から">From Izumi-chuo Station</span></strong> (Semboku Rapid Railway)</p>
-                        <p class="mb-2 ml-6">→ <span data-en="15-minute walk" data-ja="徒歩15分">15-minute walk</span></p>
-                        <p class="mb-4 ml-6">→ <span data-en="5-minute taxi ride (approximately ¥1,000)" data-ja="タクシー5分（約1,000円）">5-minute taxi ride (approximately ¥1,000)</span></p>
-                        <p class="mb-2"><strong>🚗 <span data-en="Parking Available" data-ja="駐車場あり">Parking Available</span></strong></p>
-                        <p class="ml-6 text-sm" data-en="Partner parking nearby (details provided upon reservation)" data-ja="提携駐車場近く（予約時に詳細をご案内）">Partner parking nearby (details provided upon reservation)</p>
+                        <h3 class="font-bold text-xl mb-3 flex items-center"><i class="fas fa-train mr-2 text-blue-600"></i><span data-en="Access" data-ja="アクセス" data-zh="交通方式">Access</span></h3>
+                        <p class="mb-2"><strong>🚇 <span data-en="From Izumi-chuo Station" data-ja="和泉中央駅から" data-zh="从和泉中央站">From Izumi-chuo Station</span></strong> <span data-en="(Semboku Rapid Railway)" data-ja="（泉北高速鉄道）" data-zh="（泉北高速铁道）">(Semboku Rapid Railway)</span></p>
+                        <p class="mb-2 ml-6">→ <span data-en="15-minute walk" data-ja="徒歩15分" data-zh="步行15分钟">15-minute walk</span></p>
+                        <p class="mb-4 ml-6">→ <span data-en="5-minute taxi ride (approximately ¥1,000)" data-ja="タクシー5分（約1,000円）" data-zh="出租车5分钟（约1,000日元）">5-minute taxi ride (approximately ¥1,000)</span></p>
+                        <p class="mb-2"><strong>🚗 <span data-en="Parking Available" data-ja="駐車場あり" data-zh="提供停车场">Parking Available</span></strong></p>
+                        <p class="ml-6 text-sm" data-en="Partner parking nearby (details provided upon reservation)" data-ja="提携駐車場近く（予約時に詳細をご案内）" data-zh="附近有合作停车场（预订时提供详情）">Partner parking nearby (details provided upon reservation)</p>
                     </div>
                     
                     <div class="bg-blue-50 p-4 rounded-lg">
-                        <p class="text-sm">🏘️ <span data-en="Located in Momoyama University's charming neighborhood—Stylish area with modern architecture" data-ja="桃山大学の魅力的な地域に位置—モダンな建築が並ぶスタイリッシュなエリア">Located in Momoyama University's charming neighborhood—Stylish area with modern architecture</span></p>
+                        <p class="text-sm">🏘️ <span data-en="Located in Momoyama University's charming neighborhood—Stylish area with modern architecture" data-ja="桃山大学の魅力的な地域に位置—モダンな建築が並ぶスタイリッシュなエリア" data-zh="位于桃山大学迷人的社区——现代建筑风格的时尚区域">Located in Momoyama University's charming neighborhood—Stylish area with modern architecture</span></p>
                     </div>
                 </div>
                 
@@ -844,48 +844,48 @@ app.get('/', (c) => {
                         <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-clock mr-2 text-yellow-600"></i><span data-en="Business Hours" data-ja="営業時間" data-zh="营业时间">Business Hours</span></h3>
                         
                         <div class="mb-4">
-                            <p class="font-bold mb-1">🍱 <span data-en="LUNCH" data-ja="ランチ">LUNCH</span></p>
-                            <p class="ml-6">11:00 - 14:30 (<span data-en="Last Order 14:00" data-ja="ラストオーダー 14:00">Last Order 14:00</span>)</p>
+                            <p class="font-bold mb-1">🍱 <span data-en="LUNCH" data-ja="ランチ" data-zh="午餐">LUNCH</span></p>
+                            <p class="ml-6">11:00 - 14:30 (<span data-en="Last Order 14:00" data-ja="ラストオーダー 14:00" data-zh="最后点餐 14:00">Last Order 14:00</span>)</p>
                         </div>
                         
                         <div class="mb-4">
-                            <p class="font-bold mb-1">🌙 <span data-en="DINNER" data-ja="ディナー">DINNER</span></p>
-                            <p class="ml-6">17:00 - 21:30 (<span data-en="Last Order 21:00" data-ja="ラストオーダー 21:00">Last Order 21:00</span>)</p>
+                            <p class="font-bold mb-1">🌙 <span data-en="DINNER" data-ja="ディナー" data-zh="晚餐">DINNER</span></p>
+                            <p class="ml-6">17:00 - 21:30 (<span data-en="Last Order 21:00" data-ja="ラストオーダー 21:00" data-zh="最后点餐 21:00">Last Order 21:00</span>)</p>
                         </div>
                         
                         <div class="mb-4">
-                            <p class="font-bold mb-1 text-red-600">🚫 <span data-en="CLOSED" data-ja="定休日">CLOSED</span></p>
-                            <p class="ml-6"><span data-en="Tuesdays (火曜日)" data-ja="火曜日 (Tuesdays)">Tuesdays (火曜日)</span></p>
+                            <p class="font-bold mb-1 text-red-600">🚫 <span data-en="CLOSED" data-ja="定休日" data-zh="休息日">CLOSED</span></p>
+                            <p class="ml-6"><span data-en="Tuesdays (火曜日)" data-ja="火曜日 (Tuesdays)" data-zh="星期二（火曜日）">Tuesdays (火曜日)</span></p>
                         </div>
                         
                         <div class="bg-yellow-50 p-3 rounded text-sm">
-                            ⚠️ <span data-en="Hours may vary during holidays. Confirm when booking." data-ja="祝日は営業時間が変更になる場合があります。予約時にご確認ください。">Hours may vary during holidays. Confirm when booking.</span>
+                            ⚠️ <span data-en="Hours may vary during holidays. Confirm when booking." data-ja="祝日は営業時間が変更になる場合があります。予約時にご確認ください。" data-zh="节假日营业时间可能有所变化。预订时请确认。">Hours may vary during holidays. Confirm when booking.</span>
                         </div>
                     </div>
                     
                     <div class="card mb-6">
-                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-phone mr-2 text-green-600"></i><span data-en="Contact" data-ja="お問い合わせ">Contact</span></h3>
-                        <p class="mb-2">📞 <strong data-en="Phone:" data-ja="電話：">Phone:</strong> <a href="tel:0725255717" class="text-blue-600 hover:underline">0725-25-5717</a></p>
-                        <p class="text-sm mb-4 ml-6 opacity-75" data-en="(Japanese & basic English available)" data-ja="（日本語・基本的な英語対応可能）">(Japanese & basic English available)</p>
+                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-phone mr-2 text-green-600"></i><span data-en="Contact" data-ja="お問い合わせ" data-zh="联系方式">Contact</span></h3>
+                        <p class="mb-2">📞 <strong data-en="Phone:" data-ja="電話：" data-zh="电话：">Phone:</strong> <a href="tel:0725255717" class="text-blue-600 hover:underline">0725-25-5717</a></p>
+                        <p class="text-sm mb-4 ml-6 opacity-75" data-en="(Japanese & basic English available)" data-ja="（日本語・基本的な英語対応可能）" data-zh="（可使用日语及基础英语）">(Japanese & basic English available)</p>
                         
                         <p class="mb-2">📱 <strong>Instagram:</strong> <a href="https://www.instagram.com/yamaryu_bar/" target="_blank" class="text-blue-600 hover:underline">@yamaryu_bar</a></p>
                         
-                        <p class="mb-2">🌐 <strong data-en="Official Site:" data-ja="公式サイト：">Official Site:</strong></p>
+                        <p class="mb-2">🌐 <strong data-en="Official Site:" data-ja="公式サイト：" data-zh="官方网站：">Official Site:</strong></p>
                         <p class="ml-6"><a href="https://www.hotpepper.jp/strJ001263382/" target="_blank" class="text-blue-600 hover:underline text-sm break-all">hotpepper.jp/strJ001263382</a></p>
                     </div>
                     
                     <div class="card mb-6">
-                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-info-circle mr-2 text-purple-600"></i><span data-en="What to Bring" data-ja="持ち物">What to Bring</span></h3>
-                        <p class="mb-2">✓ <span data-en="Reservation confirmation (if booked online)" data-ja="予約確認（オンライン予約の場合）">Reservation confirmation (if booked online)</span></p>
-                        <p class="mb-2">✓ <span data-en="Comfortable clothing (grilling can create aromas!)" data-ja="快適な服装（焼肉の香りがつく可能性があります）">Comfortable clothing (grilling can create aromas!)</span></p>
-                        <p class="mb-2">✓ <span data-en="Camera for photos (encouraged!)" data-ja="カメラ（写真撮影歓迎！）">Camera for photos (encouraged!)</span></p>
-                        <p class="mb-2">✗ <span data-en="No strict dress code—casual is fine" data-ja="ドレスコード不要—カジュアルでOK">No strict dress code—casual is fine</span></p>
+                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-info-circle mr-2 text-purple-600"></i><span data-en="What to Bring" data-ja="持ち物" data-zh="需携带物品">What to Bring</span></h3>
+                        <p class="mb-2">✓ <span data-en="Reservation confirmation (if booked online)" data-ja="予約確認（オンライン予約の場合）" data-zh="预订确认（如在线预订）">Reservation confirmation (if booked online)</span></p>
+                        <p class="mb-2">✓ <span data-en="Comfortable clothing (grilling can create aromas!)" data-ja="快適な服装（焼肉の香りがつく可能性があります）" data-zh="舒适的服装（烤肉可能会留下香气！）">Comfortable clothing (grilling can create aromas!)</span></p>
+                        <p class="mb-2">✓ <span data-en="Camera for photos (encouraged!)" data-ja="カメラ（写真撮影歓迎！）" data-zh="相机拍照（欢迎！）">Camera for photos (encouraged!)</span></p>
+                        <p class="mb-2">✗ <span data-en="No strict dress code—casual is fine" data-ja="ドレスコード不要—カジュアルでOK" data-zh="无严格着装要求——休闲装即可">No strict dress code—casual is fine</span></p>
                     </div>
                     
                     <div class="card">
-                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-credit-card mr-2 text-indigo-600"></i><span data-en="Payment Methods" data-ja="お支払い方法">Payment Methods</span></h3>
-                        <p class="mb-2">💳 <span data-en="Credit Cards Accepted" data-ja="クレジットカード可">Credit Cards Accepted</span></p>
-                        <p>💴 <span data-en="Cash Accepted (Yen)" data-ja="現金可（日本円）">Cash Accepted (Yen)</span></p>
+                        <h3 class="font-bold text-xl mb-4 flex items-center"><i class="fas fa-credit-card mr-2 text-indigo-600"></i><span data-en="Payment Methods" data-ja="お支払い方法" data-zh="支付方式">Payment Methods</span></h3>
+                        <p class="mb-2">💳 <span data-en="Credit Cards Accepted" data-ja="クレジットカード可" data-zh="接受信用卡">Credit Cards Accepted</span></p>
+                        <p>💴 <span data-en="Cash Accepted (Yen)" data-ja="現金可（日本円）" data-zh="接受现金（日元）">Cash Accepted (Yen)</span></p>
                     </div>
                 </div>
             </div>
